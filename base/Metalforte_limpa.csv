@@ -1,301 +1,301 @@
-ID_Registro;Data_Manutencao;Numero_OS;Maquina;Setor;Fabricante;Tipo_Manutencao;Especialidade_x;Horas_Parada;Custo_Manutencao;Peca_Utilizada;Quantidade_Pecas;Causa_Falha;Status_OS;ID_Tecnico;Nome_Tecnico;Especialidade_y
-1;2025-04-26 00:00:00;OS-1001;Prensa Hidráulica;Montagem ;Bosch;Preventiva;Mecânico;17:42;701,11;Bomba;3;Falha elétrica;Aberta;TEC001;Carlos Silva;Mecânico
-2;2025-02-17 00:00:00;OS-1002;Prensa Hidráulica;Montagem ;Siemens;Preditiva;Automação;17:12;11805,37;Bomba;7;Falha elétrica;Concluída;TEC004;Fernanda Alves;Eletricista
-3;2025-03-02 00:00:00;OS-1003;Torno CNC;Montagem ;WEG;Preditiva;Automação;08:00;9588,87;Filtro;8;Lubrificação;Em andamento;TEC002;João Santos;Mecânico
-4;2025-04-29 00:00:00;OS-1004;Torno CNC;Usin.;Schneider;Preditiva;Automação;03:24;6849,24;Sensor;9;Falha mecânica;Em andamento;TEC007;Rafael Lima;Mecânico
-5;2025-06-02 00:00:00;OS-1005;Prensa Hidráulica;Usin.;Siemens;Preditiva;Mecânico;07:36;12967,13;Sensor;4;Falha mecânica;Concluída;TEC006;Marcos Rocha;Automação
-6;2025-01-02 00:00:00;OS-1006;Torno CNC;Usin.;Bosch;Corretiva;Automação;06:00;3489,14;Rolamento;1;Lubrificação;Aberta;TEC008;Bruno Martins;Eletricista
-7;2025-02-24 00:00:00;OS-1007;Prensa Hidráulica;Montagem ;Schneider;Preventiva;Automação;14:00;6187,44;Bomba;1;Lubrificação;Em andamento;TEC001;Carlos Silva;Mecânico
-8;2025-05-29 00:00:00;OS-1008;Torno CNC;Usin.;Bosch;Corretiva;Mecânico;12:00;2551,49;Correia;3;Erro operador;Concluída;TEC009;Juliana Ribeiro;Automação
-9;2025-06-04 00:00:00;OS-1009;Prensa Hidráulica;Usin.;Schneider;Corretiva;Eletricista;02:06;4107,68;Bomba;3;Desgaste;Aberta;TEC002;João Santos;Mecânico
-10;2025-06-24 00:00:00;OS-1010;Torno CNC;Usin.;WEG;Corretiva;Automação;02:30;8571,51;Filtro;2;Falha elétrica;Em andamento;TEC004;Fernanda Alves;Eletricista
-11;2025-05-25 00:00:00;OS-1011;Torno CNC;Usin.;Siemens;Preditiva;Mecânico;04:06;12110,19;Filtro;1;Erro operador;Em andamento;TEC007;Rafael Lima;Mecânico
-12;2025-08-02 00:00:00;OS-1012;Prensa Hidráulica;Montagem ;Bosch;Preventiva;Automação;16:30;8715,27;CLP;7;Falha mecânica;Concluída;TEC006;Marcos Rocha;Automação
-13;2025-11-03 00:00:00;OS-1013;Torno CNC;Usin.;Fanuc;Preventiva;Mecânico;08:00;1423,19;Bomba;10;Desgaste;Em andamento;TEC005;Lucas Pereira;Automação
-14;2025-04-02 00:00:00;OS-1014;Torno CNC;Usin.;Bosch;Corretiva;Eletricista;03:30;1974,51;Filtro;3;Falha mecânica;Concluída;TEC009;Juliana Ribeiro;Automação
-15;2025-04-01 00:00:00;OS-1015;Prensa Hidráulica;Usin.;Schneider;Preventiva;Eletricista;16:54;1809,7;Rolamento;10;Falha mecânica;Concluída;TEC002;João Santos;Mecânico
-16;2025-07-02 00:00:00;OS-1016;Torno CNC;Montagem ;Siemens;Corretiva;Mecânico;06:48;8621,91;Rolamento;9;Falha mecânica;Aberta;TEC011;Patricia Souza;Eletricista
-17;2025-01-03 00:00:00;OS-1017;Prensa Hidráulica;Usin.;Siemens;Preventiva;Mecânico;19:24;4634,9;Motor;10;Falha mecânica;Aberta;TEC009;Juliana Ribeiro;Automação
-18;2025-05-09 00:00:00;OS-1018;Prensa Hidráulica;Usin.;Fanuc;Preventiva;Eletricista;10:24;4807,29;Correia;10;Falha elétrica;Concluída;TEC003;Ana Costa;Eletricista
-19;2025-12-01 00:00:00;OS-1019;Prensa Hidráulica;Usin.;Bosch;Corretiva;Mecânico;16:06;1252,64;Válvula;9;Falha elétrica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-20;2025-06-04 00:00:00;OS-1020;Torno CNC;Usin.;Fanuc;Preventiva;Mecânico;01:00;7618,99;Bomba;9;Falha elétrica;Aberta;TEC008;Bruno Martins;Eletricista
-21;2025-06-05 00:00:00;OS-1021;Torno CNC;Montagem ;Siemens;Preventiva;Mecânico;04:18;8166,03;Correia;1;Falha elétrica;Concluída;TEC006;Marcos Rocha;Automação
-22;2025-01-02 00:00:00;OS-1022;Torno CNC;Montagem ;WEG;Preditiva;Mecânico;18:24;14558,85;CLP;3;Lubrificação;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-23;2025-05-03 00:00:00;OS-1023;Torno CNC;Montagem ;Fanuc;Preventiva;Mecânico;02:30;12373,78;Sensor;7;Desgaste;Em andamento;TEC002;João Santos;Mecânico
-24;2025-05-12 00:00:00;OS-1024;Prensa Hidráulica;Montagem ;Siemens;Corretiva;Automação;01:54;7059,37;Motor;4;Falha mecânica;Aberta;TEC005;Lucas Pereira;Automação
-25;2025-06-18 00:00:00;OS-1025;Prensa Hidráulica;Usin.;Schneider;Corretiva;Automação;13:06;4251,51;CLP;8;Falha mecânica;Concluída;TEC001;Carlos Silva;Mecânico
-26;2025-06-03 00:00:00;OS-1026;Torno CNC;Usin.;Schneider;Corretiva;Eletricista;16:48;10425,5;Filtro;3;Desgaste;Aberta;TEC007;Rafael Lima;Mecânico
-27;2025-03-15 00:00:00;OS-1027;Torno CNC;Usin.;WEG;Preventiva;Automação;08:42;13434,61;Bomba;10;Falha mecânica;Aberta;TEC008;Bruno Martins;Eletricista
-28;2025-06-24 00:00:00;OS-1028;Torno CNC;Usin.;Fanuc;Corretiva;Automação;05:54;5395,57;Bomba;5;Falha mecânica;Concluída;TEC005;Lucas Pereira;Automação
-29;2025-02-18 00:00:00;OS-1029;Torno CNC;Usin.;Bosch;Corretiva;Eletricista;23:06;4436,93;CLP;3;Falha mecânica;Em andamento;TEC012;Camila Ferreira;Automação
-30;2025-06-13 00:00:00;OS-1030;Prensa Hidráulica;Usin.;Bosch;Preditiva;Mecânico;13:54;6884,45;Bomba;7;Falha mecânica;Concluída;TEC010;Gustavo Fernandes;Mecânico
-31;2025-05-06 00:00:00;OS-1031;Fresadora CNC;Usin.;Bosch;Preventiva;Eletricista;13:48;2938,37;Válvula;3;Desgaste;Concluída;TEC003;Ana Costa;Eletricista
-32;2025-06-16 00:00:00;OS-1032;Compressor;Usin.;Bosch;Preditiva;Mecânico;23:24;3515,95;Rolamento;1;Erro operador;Em andamento;TEC007;Rafael Lima;Mecânico
-33;2025-03-15 00:00:00;OS-1033;Esteira;Usin.;Bosch;Preventiva;Eletricista;13:42;3257,71;Motor;4;Lubrificação;Concluída;TEC009;Juliana Ribeiro;Automação
-34;2025-10-06 00:00:00;OS-1034;Soldadora Robotizada;Montagem ;Siemens;Preventiva;Eletricista;04:30;10930,88;Sensor;2;Falha elétrica;Concluída;TEC006;Marcos Rocha;Automação
-35;2025-10-04 00:00:00;OS-1035;Fresadora CNC;Usin.;Siemens;Preventiva;Eletricista;02:24;1862,86;Sensor;5;Erro operador;Aberta;TEC006;Marcos Rocha;Automação
-36;2025-04-13 00:00:00;OS-1036;Dobradeira;Montagem ;Fanuc;Corretiva;Eletricista;18:54;7666,07;Sensor;8;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
-37;2025-10-04 00:00:00;OS-1037;Prensa Hidráulica;Usin.;WEG;Preditiva;Eletricista;14:30;9821,61;Válvula;6;Erro operador;Aberta;TEC004;Fernanda Alves;Eletricista
-38;2025-06-26 00:00:00;OS-1038;Prensa Hidráulica;Montagem ;Siemens;Preventiva;Mecânico;21:48;4009,59;Motor;8;Lubrificação;Aberta;TEC006;Marcos Rocha;Automação
-39;2025-06-29 00:00:00;OS-1039;Prensa Hidráulica;Montagem ;WEG;Preventiva;Automação;07:06;3608,4;Válvula;6;Desgaste;Concluída;TEC009;Juliana Ribeiro;Automação
-40;2025-04-23 00:00:00;OS-1040;Dobradeira;Montagem ;Schneider;Corretiva;Eletricista;14:42;5611,45;CLP;10;Erro operador;Concluída;TEC004;Fernanda Alves;Eletricista
-41;2025-05-22 00:00:00;OS-1041;Fresadora CNC;Montagem ;WEG;Preventiva;Automação;20:30;14413,02;Correia;10;Lubrificação;Em andamento;TEC002;João Santos;Mecânico
-42;2025-07-04 00:00:00;OS-1042;Fresadora CNC;Montagem ;Fanuc;Preventiva;Eletricista;12:36;10335,53;CLP;7;Falha mecânica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-43;2025-04-26 00:00:00;OS-1043;Centro de Usinagem;Usin.;Bosch;Preventiva;Mecânico;04:00;5241,2;Rolamento;5;Erro operador;Concluída;TEC009;Juliana Ribeiro;Automação
-44;2025-05-28 00:00:00;OS-1044;Centro de Usinagem;Usin.;Fanuc;Preditiva;Eletricista;01:24;6596,87;Válvula;1;Desgaste;Concluída;TEC006;Marcos Rocha;Automação
-45;2025-08-06 00:00:00;OS-1045;Dobradeira;Usin.;Fanuc;Corretiva;Mecânico;08:18;2340,63;Válvula;4;Erro operador;Em andamento;TEC002;João Santos;Mecânico
-46;2025-01-06 00:00:00;OS-1046;Torno CNC;Usin.;Schneider;Preventiva;Eletricista;15:36;3512,06;Motor;1;Erro operador;Em andamento;TEC008;Bruno Martins;Eletricista
-47;2025-05-03 00:00:00;OS-1047;Dobradeira;Usin.;Fanuc;Corretiva;Mecânico;05:54;1477,34;Válvula;10;Desgaste;Aberta;TEC006;Marcos Rocha;Automação
-48;2025-01-05 00:00:00;OS-1048;Compressor;Usin.;Fanuc;Preditiva;Eletricista;03:06;4400,13;CLP;9;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-49;2025-04-04 00:00:00;OS-1049;Injetora;Usin.;Bosch;Preditiva;Mecânico;12:00;5552,44;Sensor;6;Falha elétrica;Concluída;TEC003;Ana Costa;Eletricista
-50;2025-04-19 00:00:00;OS-1050;Soldadora Robotizada;Usin.;Fanuc;Preventiva;Automação;11:42;9990,53;Rolamento;1;Lubrificação;Concluída;TEC003;Ana Costa;Eletricista
-51;2025-05-03 00:00:00;OS-1051;Dobradeira;Montagem ;Bosch;Corretiva;Automação;07:06;4460,38;CLP;7;Erro operador;Aberta;TEC009;Juliana Ribeiro;Automação
-52;2025-03-26 00:00:00;OS-1052;Compressor;Montagem ;Fanuc;Preventiva;Mecânico;07:06;9998,8;Filtro;9;Falha elétrica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-53;2025-06-05 00:00:00;OS-1053;Centro de Usinagem;Usin.;Schneider;Corretiva;Mecânico;07:06;7357,88;Rolamento;4;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
-54;2025-03-01 00:00:00;OS-1054;Dobradeira;Usin.;Fanuc;Preventiva;Eletricista;10:42;4833,4;Bomba;3;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-55;2025-03-02 00:00:00;OS-1055;Injetora;Montagem ;Siemens;Preditiva;Eletricista;04:12;4641,3;Rolamento;9;Falha mecânica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-56;2025-04-29 00:00:00;OS-1056;Dobradeira;Usin.;WEG;Preditiva;Mecânico;08:48;12128,2;Rolamento;9;Falha mecânica;Em andamento;TEC006;Marcos Rocha;Automação
-57;2025-04-06 00:00:00;OS-1057;Prensa Hidráulica;Montagem ;Siemens;Preditiva;Mecânico;14:18;7686,74;Válvula;4;Lubrificação;Aberta;TEC009;Juliana Ribeiro;Automação
-58;2025-04-27 00:00:00;OS-1058;Soldadora Robotizada;Montagem ;WEG;Preventiva;Automação;04:06;5627,44;Rolamento;8;Desgaste;Aberta;TEC008;Bruno Martins;Eletricista
-59;2025-02-25 00:00:00;OS-1059;Corte Laser;Usin.;Siemens;Corretiva;Eletricista;12:54;6892,21;Filtro;10;Lubrificação;Em andamento;TEC011;Patricia Souza;Eletricista
-60;2025-04-05 00:00:00;OS-1060;Prensa Hidráulica;Usin.;Fanuc;Corretiva;Mecânico;08:42;10438,56;Filtro;5;Desgaste;Aberta;TEC010;Gustavo Fernandes;Mecânico
-61;2025-08-05 00:00:00;OS-1061;Compressor;Usin.;Bosch;Preditiva;Mecânico;16:24;2161,33;Válvula;8;Lubrificação;Concluída;TEC007;Rafael Lima;Mecânico
-62;2025-04-18 00:00:00;OS-1062;Compressor;Usin.;WEG;Corretiva;Eletricista;13:30;5538,52;CLP;1;Lubrificação;Concluída;TEC012;Camila Ferreira;Automação
-63;2025-06-25 00:00:00;OS-1063;Esteira;Montagem ;Siemens;Preventiva;Eletricista;01:18;13878,93;Correia;9;Desgaste;Em andamento;TEC012;Camila Ferreira;Automação
-64;2025-01-05 00:00:00;OS-1064;Esteira;Montagem ;Fanuc;Preditiva;Eletricista;02:06;9197,75;CLP;8;Falha elétrica;Em andamento;TEC006;Marcos Rocha;Automação
-65;2025-11-02 00:00:00;OS-1065;Compressor;Montagem ;Bosch;Preditiva;Automação;07:48;12667,05;Rolamento;10;Desgaste;Aberta;TEC010;Gustavo Fernandes;Mecânico
-66;2025-03-04 00:00:00;OS-1066;Injetora;Usin.;Bosch;Preditiva;Mecânico;09:12;5960,37;Correia;7;Desgaste;Aberta;TEC004;Fernanda Alves;Eletricista
-67;2025-02-24 00:00:00;OS-1067;Fresadora CNC;Montagem ;Fanuc;Preventiva;Mecânico;08:54;13552,96;Filtro;5;Erro operador;Aberta;TEC008;Bruno Martins;Eletricista
-68;2025-01-06 00:00:00;OS-1068;Prensa Hidráulica;Usin.;Siemens;Preditiva;Mecânico;21:00;14649,26;Sensor;2;Falha elétrica;Aberta;TEC002;João Santos;Mecânico
-69;2025-04-09 00:00:00;OS-1069;Dobradeira;Montagem ;Siemens;Corretiva;Automação;07:42;8322,14;CLP;2;Lubrificação;Aberta;TEC004;Fernanda Alves;Eletricista
-70;2025-06-14 00:00:00;OS-1070;Fresadora CNC;Usin.;Siemens;Preventiva;Automação;07:00;363,73;Bomba;7;Lubrificação;Concluída;TEC007;Rafael Lima;Mecânico
-71;2025-05-15 00:00:00;OS-1071;Injetora;Usin.;WEG;Preditiva;Automação;02:48;3379,95;Motor;10;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
-72;2025-03-04 00:00:00;OS-1072;Fresadora CNC;Montagem ;Siemens;Preventiva;Eletricista;13:48;3344,42;CLP;9;Falha mecânica;Em andamento;TEC007;Rafael Lima;Mecânico
-73;2025-06-19 00:00:00;OS-1073;Centro de Usinagem;Usin.;Schneider;Corretiva;Automação;08:06;3216,2;Rolamento;2;Erro operador;Concluída;TEC004;Fernanda Alves;Eletricista
-74;2025-01-11 00:00:00;OS-1074;Esteira;Montagem ;Siemens;Corretiva;Eletricista;04:06;6573,37;Sensor;4;Erro operador;Aberta;TEC010;Gustavo Fernandes;Mecânico
-75;2025-11-05 00:00:00;OS-1075;Fresadora CNC;Montagem ;Siemens;Preventiva;Mecânico;02:24;14966,45;Sensor;7;Erro operador;Aberta;TEC010;Gustavo Fernandes;Mecânico
-76;2025-02-21 00:00:00;OS-1076;Compressor;Usin.;Siemens;Preditiva;Eletricista;02:18;10690,74;Motor;7;Lubrificação;Aberta;TEC010;Gustavo Fernandes;Mecânico
-77;2025-05-02 00:00:00;OS-1077;Compressor;Montagem ;Siemens;Preventiva;Automação;13:30;10098,78;Válvula;10;Lubrificação;Concluída;TEC010;Gustavo Fernandes;Mecânico
-78;2025-02-25 00:00:00;OS-1078;Fresadora CNC;Usin.;Fanuc;Preventiva;Automação;22:54;14046,77;Motor;10;Desgaste;Aberta;TEC006;Marcos Rocha;Automação
-79;2025-03-16 00:00:00;OS-1079;Centro de Usinagem;Montagem ;Schneider;Preditiva;Mecânico;05:00;7741,66;Filtro;2;Falha mecânica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-80;2025-03-18 00:00:00;OS-1080;Dobradeira;Usin.;Fanuc;Preventiva;Eletricista;18:54;2710,67;Motor;10;Falha mecânica;Aberta;TEC011;Patricia Souza;Eletricista
-81;2025-03-17 00:00:00;OS-1081;Injetora;Usin.;Siemens;Preventiva;Automação;08:30;7113,66;Correia;9;Falha elétrica;Concluída;TEC007;Rafael Lima;Mecânico
-82;2025-06-24 00:00:00;OS-1082;Corte Laser;Usin.;Schneider;Corretiva;Automação;08:36;4042,06;Filtro;5;Erro operador;Aberta;TEC011;Patricia Souza;Eletricista
-83;2025-03-03 00:00:00;OS-1083;Compressor;Montagem ;Fanuc;Preventiva;Mecânico;12:54;524,08;Motor;10;Erro operador;Aberta;TEC003;Ana Costa;Eletricista
-84;2025-04-21 00:00:00;OS-1084;Prensa Hidráulica;Usin.;Fanuc;Preditiva;Mecânico;08:00;2272,14;Filtro;10;Falha mecânica;Concluída;TEC003;Ana Costa;Eletricista
-85;2025-12-06 00:00:00;OS-1085;Dobradeira;Montagem ;Bosch;Corretiva;Automação;17:12;8225,53;Motor;8;Desgaste;Em andamento;TEC007;Rafael Lima;Mecânico
-86;2025-05-06 00:00:00;OS-1086;Injetora;Usin.;Siemens;Corretiva;Eletricista;09:18;12182,36;Correia;4;Lubrificação;Concluída;TEC003;Ana Costa;Eletricista
-87;2025-03-16 00:00:00;OS-1087;Soldadora Robotizada;Usin.;Siemens;Preditiva;Mecânico;12:18;234,81;CLP;4;Falha elétrica;Concluída;TEC006;Marcos Rocha;Automação
-88;2025-04-24 00:00:00;OS-1088;Dobradeira;Montagem ;Fanuc;Corretiva;Mecânico;19:12;14914,99;Motor;5;Erro operador;Em andamento;TEC008;Bruno Martins;Eletricista
-89;2025-06-23 00:00:00;OS-1089;Dobradeira;Usin.;Siemens;Preventiva;Mecânico;22:00;8169,81;Motor;10;Falha elétrica;Concluída;TEC007;Rafael Lima;Mecânico
-90;2025-03-30 00:00:00;OS-1090;Centro de Usinagem;Usin.;Fanuc;Preditiva;Mecânico;13:24;14613,71;CLP;2;Lubrificação;Concluída;TEC011;Patricia Souza;Eletricista
-91;2025-02-01 00:00:00;OS-1091;Compressor;Usin.;Schneider;Preditiva;Eletricista;22:18;13822,9;Rolamento;5;Erro operador;Em andamento;TEC002;João Santos;Mecânico
-92;2025-01-21 00:00:00;OS-1092;Prensa Hidráulica;Usin.;Schneider;Preditiva;Mecânico;06:54;10070,9;Válvula;1;Lubrificação;Aberta;TEC003;Ana Costa;Eletricista
-93;2025-02-01 00:00:00;OS-1093;Esteira;Usin.;WEG;Preditiva;Mecânico;16:36;6858,46;Sensor;1;Falha elétrica;Aberta;TEC009;Juliana Ribeiro;Automação
-94;2025-04-26 00:00:00;OS-1094;Injetora;Montagem ;Schneider;Corretiva;Eletricista;12:54;7405,5;Correia;8;Falha elétrica;Aberta;TEC012;Camila Ferreira;Automação
-95;2025-03-01 00:00:00;OS-1095;Soldadora Robotizada;Usin.;WEG;Corretiva;Automação;00:36;7496,55;Motor;3;Falha elétrica;Aberta;TEC009;Juliana Ribeiro;Automação
-96;2025-01-22 00:00:00;OS-1096;Injetora;Usin.;WEG;Corretiva;Mecânico;04:48;4133,76;Rolamento;8;Falha mecânica;Concluída;TEC003;Ana Costa;Eletricista
-97;2025-05-05 00:00:00;OS-1097;Torno CNC;Usin.;Bosch;Corretiva;Eletricista;05:06;13831,35;Sensor;9;Falha elétrica;Aberta;TEC002;João Santos;Mecânico
-98;2025-06-02 00:00:00;OS-1098;Fresadora CNC;Montagem ;Fanuc;Preditiva;Eletricista;07:54;12367,88;Bomba;3;Falha mecânica;Concluída;TEC002;João Santos;Mecânico
-99;2025-04-07 00:00:00;OS-1099;Centro de Usinagem;Montagem ;WEG;Preditiva;Mecânico;01:36;14594,16;Sensor;2;Falha elétrica;Aberta;TEC012;Camila Ferreira;Automação
-100;2025-12-03 00:00:00;OS-1100;Torno CNC;Usin.;WEG;Corretiva;Mecânico;06:24;10173,31;Motor;6;Desgaste;Aberta;TEC001;Carlos Silva;Mecânico
-101;2025-03-05 00:00:00;OS-1101;Fresadora CNC;Usin.;Siemens;Corretiva;Mecânico;16:30;3246,49;Bomba;5;Erro operador;Aberta;TEC008;Bruno Martins;Eletricista
-102;2025-02-16 00:00:00;OS-1102;Centro de Usinagem;Usin.;Schneider;Corretiva;Eletricista;06:30;10103,94;Válvula;2;Desgaste;Concluída;TEC006;Marcos Rocha;Automação
-103;2025-04-28 00:00:00;OS-1103;Soldadora Robotizada;Usin.;Bosch;Preditiva;Eletricista;22:12;9070,6;Motor;6;Falha elétrica;Aberta;TEC005;Lucas Pereira;Automação
-104;2025-02-23 00:00:00;OS-1104;Soldadora Robotizada;Montagem ;Bosch;Preventiva;Mecânico;15:36;7406,03;Sensor;7;Falha mecânica;Em andamento;TEC003;Ana Costa;Eletricista
-105;2025-02-14 00:00:00;OS-1105;Esteira;Montagem ;Siemens;Preditiva;Eletricista;17:24;8561,79;Correia;9;Falha mecânica;Em andamento;TEC005;Lucas Pereira;Automação
-106;2025-10-01 00:00:00;OS-1106;Soldadora Robotizada;Usin.;Fanuc;Preventiva;Automação;21:24;8547,55;Sensor;2;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
-107;2025-04-25 00:00:00;OS-1107;Esteira;Usin.;Fanuc;Preditiva;Eletricista;12:48;10733,5;Rolamento;7;Lubrificação;Em andamento;TEC003;Ana Costa;Eletricista
-108;2025-03-13 00:00:00;OS-1108;Prensa Hidráulica;Montagem ;Schneider;Preditiva;Mecânico;19:12;11220,27;Correia;2;Falha mecânica;Concluída;TEC001;Carlos Silva;Mecânico
-109;2025-05-31 00:00:00;OS-1109;Injetora;Usin.;Fanuc;Preventiva;Automação;13:24;4176,01;Rolamento;10;Falha mecânica;Em andamento;TEC008;Bruno Martins;Eletricista
-110;2025-02-19 00:00:00;OS-1110;Centro de Usinagem;Usin.;Siemens;Corretiva;Automação;15:30;10826,72;Bomba;9;Falha elétrica;Concluída;TEC009;Juliana Ribeiro;Automação
-111;2025-03-05 00:00:00;OS-1111;Torno CNC;Usin.;Fanuc;Preventiva;Automação;01:42;6318,65;Sensor;4;Desgaste;Em andamento;TEC012;Camila Ferreira;Automação
-112;2025-01-08 00:00:00;OS-1112;Compressor;Montagem ;Bosch;Corretiva;Mecânico;19:54;2757,36;Válvula;7;Lubrificação;Concluída;TEC012;Camila Ferreira;Automação
-113;2025-01-15 00:00:00;OS-1113;Fresadora CNC;Usin.;Siemens;Preditiva;Mecânico;22:54;1225,55;Rolamento;9;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
-114;2025-09-06 00:00:00;OS-1114;Centro de Usinagem;Montagem ;Schneider;Corretiva;Eletricista;04:24;5879,02;Correia;9;Falha elétrica;Em andamento;TEC009;Juliana Ribeiro;Automação
-115;2025-02-22 00:00:00;OS-1115;Prensa Hidráulica;Usin.;Fanuc;Preventiva;Eletricista;01:18;7704,55;Correia;7;Erro operador;Em andamento;TEC007;Rafael Lima;Mecânico
-116;2025-05-13 00:00:00;OS-1116;Corte Laser;Usin.;Schneider;Preventiva;Mecânico;14:00;13406,8;Rolamento;7;Erro operador;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-117;2025-06-01 00:00:00;OS-1117;Corte Laser;Montagem ;Bosch;Preditiva;Eletricista;02:54;3150,07;Rolamento;9;Desgaste;Aberta;TEC006;Marcos Rocha;Automação
-118;2025-06-13 00:00:00;OS-1118;Torno CNC;Usin.;Bosch;Preditiva;Automação;13:12;9985,99;Válvula;2;Falha mecânica;Concluída;TEC011;Patricia Souza;Eletricista
-119;2025-05-06 00:00:00;OS-1119;Compressor;Usin.;WEG;Preventiva;Eletricista;00:42;9925,52;Sensor;6;Desgaste;Concluída;TEC012;Camila Ferreira;Automação
-120;2025-10-03 00:00:00;OS-1120;Corte Laser;Usin.;Siemens;Corretiva;Mecânico;18:36;3191,53;Rolamento;7;Erro operador;Em andamento;TEC004;Fernanda Alves;Eletricista
-121;2025-04-05 00:00:00;OS-1121;Esteira;Montagem ;Fanuc;Preditiva;Mecânico;10:00;10270,8;Válvula;2;Erro operador;Concluída;TEC003;Ana Costa;Eletricista
-122;2025-05-20 00:00:00;OS-1122;Soldadora Robotizada;Montagem ;Fanuc;Corretiva;Mecânico;13:36;7096,43;CLP;6;Desgaste;Em andamento;TEC004;Fernanda Alves;Eletricista
-123;2025-03-15 00:00:00;OS-1123;Dobradeira;Usin.;Bosch;Corretiva;Mecânico;13:30;7656,92;Correia;3;Lubrificação;Aberta;TEC011;Patricia Souza;Eletricista
-124;2025-02-15 00:00:00;OS-1124;Soldadora Robotizada;Montagem ;Bosch;Preditiva;Automação;03:06;14874,28;Rolamento;8;Lubrificação;Em andamento;TEC009;Juliana Ribeiro;Automação
-125;2025-05-13 00:00:00;OS-1125;Compressor;Usin.;Fanuc;Preventiva;Eletricista;15:36;4389,06;Sensor;10;Erro operador;Aberta;TEC003;Ana Costa;Eletricista
-126;2025-01-02 00:00:00;OS-1126;Dobradeira;Montagem ;Fanuc;Preventiva;Automação;02:24;9011,87;Motor;7;Falha elétrica;Concluída;TEC005;Lucas Pereira;Automação
-127;2025-08-03 00:00:00;OS-1127;Injetora;Montagem ;Siemens;Preventiva;Eletricista;10:00;4102,6;Sensor;8;Falha mecânica;Em andamento;TEC001;Carlos Silva;Mecânico
-128;2025-04-22 00:00:00;OS-1128;Injetora;Usin.;Bosch;Preventiva;Mecânico;11:54;11818,13;Filtro;8;Desgaste;Em andamento;TEC002;João Santos;Mecânico
-129;2025-03-15 00:00:00;OS-1129;Centro de Usinagem;Usin.;Fanuc;Corretiva;Mecânico;06:12;8508,79;CLP;9;Lubrificação;Em andamento;TEC001;Carlos Silva;Mecânico
-130;2025-03-31 00:00:00;OS-1130;Fresadora CNC;Usin.;WEG;Preventiva;Automação;19:12;11340,58;Válvula;2;Desgaste;Aberta;TEC007;Rafael Lima;Mecânico
-131;2025-03-25 00:00:00;OS-1131;Injetora;Usin.;Bosch;Corretiva;Mecânico;16:12;11152,62;Bomba;9;Falha elétrica;Em andamento;TEC007;Rafael Lima;Mecânico
-132;2025-04-24 00:00:00;OS-1132;Dobradeira;Usin.;Fanuc;Preditiva;Eletricista;13:06;14087,06;Válvula;7;Erro operador;Aberta;TEC006;Marcos Rocha;Automação
-133;2025-03-01 00:00:00;OS-1133;Dobradeira;Usin.;Schneider;Preventiva;Automação;03:18;11168,06;Válvula;3;Desgaste;Concluída;TEC009;Juliana Ribeiro;Automação
-134;2025-03-13 00:00:00;OS-1134;Compressor;Montagem ;Fanuc;Preventiva;Eletricista;07:06;14894,27;Rolamento;9;Desgaste;Concluída;TEC009;Juliana Ribeiro;Automação
-135;2025-01-18 00:00:00;OS-1135;Dobradeira;Montagem ;Schneider;Preventiva;Automação;02:12;1105,66;Motor;1;Erro operador;Em andamento;TEC003;Ana Costa;Eletricista
-136;2025-09-01 00:00:00;OS-1136;Prensa Hidráulica;Montagem ;WEG;Preventiva;Automação;09:42;7942,24;Válvula;4;Falha mecânica;Em andamento;TEC008;Bruno Martins;Eletricista
-137;2025-04-20 00:00:00;OS-1137;Corte Laser;Usin.;Siemens;Preditiva;Eletricista;11:36;11857,93;Correia;1;Lubrificação;Concluída;TEC006;Marcos Rocha;Automação
-138;2025-05-22 00:00:00;OS-1138;Fresadora CNC;Montagem ;Siemens;Preventiva;Eletricista;01:24;11962,77;Rolamento;4;Falha mecânica;Concluída;TEC012;Camila Ferreira;Automação
-139;2025-04-10 00:00:00;OS-1139;Fresadora CNC;Montagem ;Schneider;Preventiva;Eletricista;20:48;14880,38;Filtro;6;Desgaste;Aberta;TEC003;Ana Costa;Eletricista
-140;2025-02-22 00:00:00;OS-1140;Fresadora CNC;Usin.;Bosch;Preditiva;Eletricista;05:48;2157,41;Sensor;10;Erro operador;Aberta;TEC005;Lucas Pereira;Automação
-141;2025-03-09 00:00:00;OS-1141;Compressor;Montagem ;Siemens;Preditiva;Automação;09:18;1658,91;Bomba;8;Falha elétrica;Aberta;TEC008;Bruno Martins;Eletricista
-142;2025-01-19 00:00:00;OS-1142;Prensa Hidráulica;Usin.;Schneider;Preditiva;Automação;20:06;12392,43;Filtro;8;Erro operador;Aberta;TEC007;Rafael Lima;Mecânico
-143;2025-06-12 00:00:00;OS-1143;Fresadora CNC;Usin.;Fanuc;Preventiva;Mecânico;20:30;2541,89;Filtro;8;Desgaste;Em andamento;TEC005;Lucas Pereira;Automação
-144;2025-01-29 00:00:00;OS-1144;Centro de Usinagem;Usin.;Siemens;Preditiva;Mecânico;03:42;13891,43;Válvula;7;Falha mecânica;Concluída;TEC005;Lucas Pereira;Automação
-145;2025-04-20 00:00:00;OS-1145;Fresadora CNC;Montagem ;Siemens;Preventiva;Mecânico;16:36;173,38;Filtro;6;Falha mecânica;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-146;2025-06-17 00:00:00;OS-1146;Corte Laser;Usin.;Bosch;Preventiva;Eletricista;20:48;8044,73;Rolamento;4;Lubrificação;Em andamento;TEC008;Bruno Martins;Eletricista
-147;2025-03-19 00:00:00;OS-1147;Compressor;Montagem ;WEG;Corretiva;Mecânico;07:06;7239,08;Motor;3;Desgaste;Aberta;TEC001;Carlos Silva;Mecânico
-148;2025-06-29 00:00:00;OS-1148;Centro de Usinagem;Montagem ;Fanuc;Preditiva;Mecânico;10:36;13172,02;Sensor;3;Falha elétrica;Aberta;TEC001;Carlos Silva;Mecânico
-149;2025-06-28 00:00:00;OS-1149;Torno CNC;Montagem ;Fanuc;Corretiva;Mecânico;00:48;14980,45;Motor;4;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-150;2025-02-13 00:00:00;OS-1150;Injetora;Usin.;Siemens;Preditiva;Eletricista;10:54;2353,2;Motor;1;Falha elétrica;Aberta;TEC001;Carlos Silva;Mecânico
-151;2025-01-04 00:00:00;OS-1151;Prensa Hidráulica;Montagem ;Fanuc;Corretiva;Mecânico;13:54;1452,29;Motor;8;Desgaste;Aberta;TEC012;Camila Ferreira;Automação
-152;2025-04-22 00:00:00;OS-1152;Prensa Hidráulica;Montagem ;WEG;Preditiva;Eletricista;04:06;6458,13;Bomba;8;Desgaste;Concluída;TEC010;Gustavo Fernandes;Mecânico
-153;2025-06-03 00:00:00;OS-1153;Dobradeira;Montagem ;Schneider;Corretiva;Eletricista;19:18;9034,55;CLP;4;Erro operador;Aberta;TEC008;Bruno Martins;Eletricista
-154;2025-03-04 00:00:00;OS-1154;Corte Laser;Usin.;WEG;Preventiva;Automação;03:30;11993,44;Bomba;10;Desgaste;Concluída;TEC008;Bruno Martins;Eletricista
-155;2025-01-21 00:00:00;OS-1155;Corte Laser;Usin.;Fanuc;Preditiva;Mecânico;02:12;11955,99;CLP;9;Falha mecânica;Concluída;TEC007;Rafael Lima;Mecânico
-156;2025-03-25 00:00:00;OS-1156;Torno CNC;Montagem ;WEG;Preditiva;Eletricista;15:48;13669,29;Correia;5;Desgaste;Em andamento;TEC012;Camila Ferreira;Automação
-157;2025-03-05 00:00:00;OS-1157;Corte Laser;Montagem ;Schneider;Corretiva;Automação;11:00;14676,74;Bomba;7;Lubrificação;Em andamento;TEC012;Camila Ferreira;Automação
-158;2025-09-03 00:00:00;OS-1158;Injetora;Usin.;Siemens;Preventiva;Mecânico;10:54;5064,22;CLP;5;Lubrificação;Aberta;TEC011;Patricia Souza;Eletricista
-159;2025-04-05 00:00:00;OS-1159;Prensa Hidráulica;Usin.;WEG;Corretiva;Eletricista;17:12;1238,04;Sensor;3;Falha mecânica;Aberta;TEC009;Juliana Ribeiro;Automação
-160;2025-03-29 00:00:00;OS-1160;Esteira;Usin.;Fanuc;Preditiva;Automação;02:06;13459,02;Bomba;6;Falha elétrica;Aberta;TEC003;Ana Costa;Eletricista
-161;2025-07-02 00:00:00;OS-1161;Centro de Usinagem;Usin.;Schneider;Preventiva;Eletricista;11:30;5012,82;Rolamento;3;Erro operador;Aberta;TEC002;João Santos;Mecânico
-162;2025-02-14 00:00:00;OS-1162;Prensa Hidráulica;Montagem ;Fanuc;Corretiva;Eletricista;14:06;4197,29;Filtro;8;Falha elétrica;Concluída;TEC004;Fernanda Alves;Eletricista
-163;2025-02-28 00:00:00;OS-1163;Esteira;Montagem ;Bosch;Preventiva;Mecânico;04:12;3639,91;Rolamento;1;Erro operador;Concluída;TEC011;Patricia Souza;Eletricista
-164;2025-05-15 00:00:00;OS-1164;Injetora;Usin.;WEG;Preventiva;Automação;08:06;2276,15;Válvula;4;Falha elétrica;Concluída;TEC003;Ana Costa;Eletricista
-165;2025-05-13 00:00:00;OS-1165;Esteira;Montagem ;Schneider;Corretiva;Mecânico;15:54;5273,63;Correia;1;Lubrificação;Aberta;TEC011;Patricia Souza;Eletricista
-166;2025-02-22 00:00:00;OS-1166;Corte Laser;Montagem ;Bosch;Corretiva;Eletricista;10:00;4930,64;Rolamento;7;Desgaste;Em andamento;TEC003;Ana Costa;Eletricista
-167;2025-06-22 00:00:00;OS-1167;Dobradeira;Montagem ;Schneider;Corretiva;Eletricista;21:00;3400,34;Rolamento;9;Desgaste;Em andamento;TEC008;Bruno Martins;Eletricista
-168;2025-05-03 00:00:00;OS-1168;Esteira;Montagem ;Fanuc;Preventiva;Automação;13:30;10823,56;Motor;7;Desgaste;Aberta;TEC012;Camila Ferreira;Automação
-169;2025-01-02 00:00:00;OS-1169;Prensa Hidráulica;Montagem ;WEG;Corretiva;Automação;08:18;2525,99;Válvula;2;Erro operador;Aberta;TEC007;Rafael Lima;Mecânico
-170;2025-04-14 00:00:00;OS-1170;Injetora;Montagem ;WEG;Preventiva;Mecânico;23:06;2052,89;Sensor;10;Falha mecânica;Aberta;TEC007;Rafael Lima;Mecânico
-171;2025-07-03 00:00:00;OS-1171;Soldadora Robotizada;Montagem ;WEG;Corretiva;Eletricista;07:54;3537,36;Bomba;5;Erro operador;Em andamento;TEC012;Camila Ferreira;Automação
-172;2025-02-13 00:00:00;OS-1172;Centro de Usinagem;Montagem ;Schneider;Preventiva;Automação;01:00;9534,5;Bomba;5;Falha mecânica;Em andamento;TEC004;Fernanda Alves;Eletricista
-173;2025-04-14 00:00:00;OS-1173;Fresadora CNC;Usin.;Bosch;Corretiva;Eletricista;13:30;824,42;Sensor;3;Erro operador;Aberta;TEC007;Rafael Lima;Mecânico
-174;2025-04-26 00:00:00;OS-1174;Injetora;Montagem ;Siemens;Preditiva;Eletricista;01:30;1985,67;Motor;2;Erro operador;Aberta;TEC005;Lucas Pereira;Automação
-175;2025-03-04 00:00:00;OS-1175;Injetora;Montagem ;Schneider;Preditiva;Mecânico;02:48;3787,58;CLP;3;Erro operador;Concluída;TEC006;Marcos Rocha;Automação
-176;2025-09-02 00:00:00;OS-1176;Centro de Usinagem;Usin.;Fanuc;Corretiva;Automação;21:30;7599,04;Correia;7;Falha elétrica;Concluída;TEC006;Marcos Rocha;Automação
-177;2025-04-23 00:00:00;OS-1177;Compressor;Montagem ;Schneider;Preditiva;Mecânico;16:06;7260,95;Filtro;7;Desgaste;Aberta;TEC009;Juliana Ribeiro;Automação
-178;2025-01-02 00:00:00;OS-1178;Torno CNC;Montagem ;WEG;Preditiva;Automação;11:12;8761,59;Filtro;10;Falha mecânica;Em andamento;TEC006;Marcos Rocha;Automação
-179;2025-01-12 00:00:00;OS-1179;Esteira;Montagem ;Siemens;Preditiva;Eletricista;12:24;5789,62;Válvula;8;Erro operador;Em andamento;TEC012;Camila Ferreira;Automação
-180;2025-05-15 00:00:00;OS-1180;Soldadora Robotizada;Montagem ;Schneider;Preventiva;Eletricista;16:48;12927,3;CLP;2;Falha elétrica;Concluída;TEC007;Rafael Lima;Mecânico
-181;2025-04-15 00:00:00;OS-1181;Compressor;Usin.;Schneider;Preventiva;Eletricista;09:30;4787,71;Correia;9;Desgaste;Concluída;TEC008;Bruno Martins;Eletricista
-182;2025-02-19 00:00:00;OS-1182;Dobradeira;Montagem ;WEG;Corretiva;Mecânico;14:48;8916,78;Filtro;7;Lubrificação;Aberta;TEC008;Bruno Martins;Eletricista
-183;2025-05-29 00:00:00;OS-1183;Dobradeira;Montagem ;WEG;Corretiva;Mecânico;18:24;143,52;Motor;2;Desgaste;Concluída;TEC012;Camila Ferreira;Automação
-184;2025-01-31 00:00:00;OS-1184;Torno CNC;Montagem ;Bosch;Preditiva;Mecânico;18:36;7110,91;Bomba;8;Falha mecânica;Em andamento;TEC011;Patricia Souza;Eletricista
-185;2025-05-14 00:00:00;OS-1185;Centro de Usinagem;Usin.;WEG;Corretiva;Mecânico;02:54;4353,11;Válvula;9;Falha elétrica;Em andamento;TEC001;Carlos Silva;Mecânico
-186;2025-01-21 00:00:00;OS-1186;Torno CNC;Usin.;Siemens;Preventiva;Automação;15:06;452,43;Válvula;10;Falha mecânica;Em andamento;TEC004;Fernanda Alves;Eletricista
-187;2025-06-30 00:00:00;OS-1187;Compressor;Usin.;Schneider;Corretiva;Eletricista;07:48;6911,1;Válvula;9;Lubrificação;Concluída;TEC006;Marcos Rocha;Automação
-188;2025-10-06 00:00:00;OS-1188;Soldadora Robotizada;Montagem ;Schneider;Preditiva;Automação;19:12;1538;CLP;3;Lubrificação;Em andamento;TEC007;Rafael Lima;Mecânico
-189;2025-06-03 00:00:00;OS-1189;Compressor;Usin.;WEG;Preventiva;Mecânico;17:48;9886,12;Sensor;3;Erro operador;Concluída;TEC009;Juliana Ribeiro;Automação
-190;2025-06-06 00:00:00;OS-1190;Corte Laser;Montagem ;Fanuc;Preventiva;Automação;12:30;7311,92;Válvula;5;Falha elétrica;Em andamento;TEC001;Carlos Silva;Mecânico
-191;2025-05-29 00:00:00;OS-1191;Compressor;Montagem ;Schneider;Corretiva;Mecânico;16:36;8451,71;Bomba;7;Erro operador;Concluída;TEC003;Ana Costa;Eletricista
-192;2025-06-27 00:00:00;OS-1192;Compressor;Montagem ;Siemens;Preventiva;Eletricista;21:06;12903,36;Bomba;10;Lubrificação;Em andamento;TEC003;Ana Costa;Eletricista
-193;2025-01-01 00:00:00;OS-1193;Dobradeira;Usin.;WEG;Preditiva;Mecânico;20:24;6740,82;CLP;4;Falha mecânica;Concluída;TEC012;Camila Ferreira;Automação
-194;2025-01-01 00:00:00;OS-1194;Dobradeira;Montagem ;Fanuc;Preditiva;Eletricista;23:12;696,7;Sensor;5;Falha mecânica;Concluída;TEC010;Gustavo Fernandes;Mecânico
-195;2025-05-19 00:00:00;OS-1195;Prensa Hidráulica;Usin.;Schneider;Corretiva;Mecânico;03:54;10110,26;Sensor;6;Lubrificação;Em andamento;TEC005;Lucas Pereira;Automação
-196;2025-06-18 00:00:00;OS-1196;Dobradeira;Montagem ;Siemens;Preventiva;Mecânico;22:48;8908,73;Correia;3;Desgaste;Em andamento;TEC008;Bruno Martins;Eletricista
-197;2025-01-23 00:00:00;OS-1197;Esteira;Usin.;Fanuc;Preditiva;Eletricista;19:30;13290,8;Sensor;7;Desgaste;Aberta;TEC006;Marcos Rocha;Automação
-198;2025-06-29 00:00:00;OS-1198;Injetora;Montagem ;WEG;Corretiva;Automação;02:42;12193,66;Bomba;2;Erro operador;Aberta;TEC006;Marcos Rocha;Automação
-199;2025-09-01 00:00:00;OS-1199;Corte Laser;Montagem ;Bosch;Preditiva;Mecânico;07:00;7768,05;Sensor;9;Falha mecânica;Aberta;TEC011;Patricia Souza;Eletricista
-200;2025-02-13 00:00:00;OS-1200;Esteira;Usin.;Fanuc;Preventiva;Mecânico;17:06;6278,98;Bomba;5;Erro operador;Concluída;TEC012;Camila Ferreira;Automação
-201;2025-02-20 00:00:00;OS-1201;Esteira;Usin.;Schneider;Corretiva;Automação;07:24;13984,27;Bomba;9;Erro operador;Concluída;TEC009;Juliana Ribeiro;Automação
-202;2025-03-06 00:00:00;OS-1202;Corte Laser;Montagem ;Bosch;Preventiva;Mecânico;07:24;10504,89;Sensor;3;Falha elétrica;Concluída;TEC011;Patricia Souza;Eletricista
-203;2025-06-19 00:00:00;OS-1203;Fresadora CNC;Usin.;WEG;Preditiva;Automação;00:42;3898,09;Válvula;5;Falha mecânica;Aberta;TEC001;Carlos Silva;Mecânico
-204;2025-03-23 00:00:00;OS-1204;Corte Laser;Usin.;Siemens;Corretiva;Mecânico;15:18;5921,89;Sensor;1;Erro operador;Em andamento;TEC008;Bruno Martins;Eletricista
-205;2025-03-08 00:00:00;OS-1205;Fresadora CNC;Montagem ;WEG;Preventiva;Mecânico;20:30;12882,07;Sensor;1;Lubrificação;Aberta;TEC008;Bruno Martins;Eletricista
-206;2025-11-03 00:00:00;OS-1206;Compressor;Usin.;Fanuc;Corretiva;Automação;18:18;5498,34;Motor;6;Desgaste;Em andamento;TEC007;Rafael Lima;Mecânico
-207;2025-04-21 00:00:00;OS-1207;Prensa Hidráulica;Usin.;Fanuc;Preventiva;Mecânico;22:36;343,27;Motor;1;Desgaste;Em andamento;TEC012;Camila Ferreira;Automação
-208;2025-01-30 00:00:00;OS-1208;Torno CNC;Montagem ;WEG;Preditiva;Mecânico;20:48;3322,56;Rolamento;3;Falha elétrica;Aberta;TEC011;Patricia Souza;Eletricista
-209;2025-07-06 00:00:00;OS-1209;Injetora;Usin.;Schneider;Corretiva;Mecânico;14:36;7877,69;CLP;10;Erro operador;Concluída;TEC012;Camila Ferreira;Automação
-210;2025-01-06 00:00:00;OS-1210;Centro de Usinagem;Usin.;WEG;Corretiva;Eletricista;06:24;2749,49;Válvula;2;Desgaste;Em andamento;TEC002;João Santos;Mecânico
-211;2025-07-01 00:00:00;OS-1211;Centro de Usinagem;Montagem ;Siemens;Preventiva;Eletricista;22:30;4516,08;Válvula;3;Lubrificação;Aberta;TEC005;Lucas Pereira;Automação
-212;2025-01-18 00:00:00;OS-1212;Centro de Usinagem;Montagem ;Schneider;Preventiva;Automação;06:00;10151,96;Correia;9;Falha mecânica;Concluída;TEC008;Bruno Martins;Eletricista
-213;2025-03-31 00:00:00;OS-1213;Fresadora CNC;Usin.;Schneider;Corretiva;Automação;00:54;11125,47;CLP;1;Falha mecânica;Aberta;TEC008;Bruno Martins;Eletricista
-214;2025-05-06 00:00:00;OS-1214;Dobradeira;Montagem ;Siemens;Corretiva;Eletricista;05:18;1474,42;CLP;9;Falha mecânica;Concluída;TEC007;Rafael Lima;Mecânico
-215;2025-01-18 00:00:00;OS-1215;Fresadora CNC;Usin.;Fanuc;Preventiva;Eletricista;19:18;13010,65;Motor;8;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-216;2025-04-16 00:00:00;OS-1216;Compressor;Montagem ;Bosch;Corretiva;Automação;03:30;14838,59;Sensor;6;Desgaste;Concluída;TEC010;Gustavo Fernandes;Mecânico
-217;2025-09-02 00:00:00;OS-1217;Dobradeira;Montagem ;WEG;Preventiva;Eletricista;22:42;4294,69;CLP;1;Falha elétrica;Aberta;TEC002;João Santos;Mecânico
-218;2025-02-06 00:00:00;OS-1218;Corte Laser;Usin.;Fanuc;Preditiva;Eletricista;13:12;13849,11;Sensor;4;Falha elétrica;Em andamento;TEC002;João Santos;Mecânico
-219;2025-09-02 00:00:00;OS-1219;Torno CNC;Montagem ;Fanuc;Preditiva;Eletricista;09:30;900,49;Sensor;5;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-220;2025-01-02 00:00:00;OS-1220;Fresadora CNC;Usin.;Schneider;Preventiva;Automação;03:36;12866,55;Filtro;4;Falha mecânica;Em andamento;TEC008;Bruno Martins;Eletricista
-221;2025-12-04 00:00:00;OS-1221;Compressor;Usin.;WEG;Corretiva;Mecânico;15:24;5975,34;CLP;5;Lubrificação;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-222;2025-04-13 00:00:00;OS-1222;Corte Laser;Montagem ;Siemens;Preventiva;Automação;14:06;8773,7;Válvula;1;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-223;2025-02-21 00:00:00;OS-1223;Fresadora CNC;Usin.;WEG;Corretiva;Eletricista;07:18;13779,49;CLP;3;Falha mecânica;Concluída;TEC007;Rafael Lima;Mecânico
-224;2025-05-17 00:00:00;OS-1224;Dobradeira;Usin.;Siemens;Corretiva;Mecânico;21:18;14505,87;Filtro;9;Falha mecânica;Concluída;TEC010;Gustavo Fernandes;Mecânico
-225;2025-03-18 00:00:00;OS-1225;Corte Laser;Usin.;Schneider;Preditiva;Eletricista;01:00;13763,21;Motor;3;Desgaste;Aberta;TEC007;Rafael Lima;Mecânico
-226;2025-03-17 00:00:00;OS-1226;Compressor;Usin.;Siemens;Corretiva;Automação;22:36;5752,07;Sensor;9;Lubrificação;Aberta;TEC012;Camila Ferreira;Automação
-227;2025-05-04 00:00:00;OS-1227;Esteira;Usin.;Fanuc;Preventiva;Mecânico;18:24;12080,38;Rolamento;6;Falha elétrica;Em andamento;TEC012;Camila Ferreira;Automação
-228;2025-04-03 00:00:00;OS-1228;Centro de Usinagem;Montagem ;Fanuc;Corretiva;Automação;22:36;3321,45;Sensor;8;Falha mecânica;Em andamento;TEC003;Ana Costa;Eletricista
-229;2025-05-15 00:00:00;OS-1229;Fresadora CNC;Usin.;WEG;Preditiva;Eletricista;10:36;493,84;Correia;1;Desgaste;Em andamento;TEC002;João Santos;Mecânico
-230;2025-04-03 00:00:00;OS-1230;Dobradeira;Usin.;Siemens;Corretiva;Eletricista;14:36;672,7;Motor;10;Desgaste;Concluída;TEC011;Patricia Souza;Eletricista
-231;2025-04-24 00:00:00;OS-1231;Compressor;Montagem ;WEG;Preditiva;Mecânico;06:06;7099,98;Filtro;5;Falha mecânica;Concluída;TEC012;Camila Ferreira;Automação
-232;2025-06-24 00:00:00;OS-1232;Dobradeira;Usin.;Fanuc;Preventiva;Eletricista;01:24;5759,3;Bomba;5;Falha elétrica;Em andamento;TEC007;Rafael Lima;Mecânico
-233;2025-03-13 00:00:00;OS-1233;Prensa Hidráulica;Usin.;Schneider;Corretiva;Mecânico;12:48;12567,85;Bomba;10;Erro operador;Aberta;TEC004;Fernanda Alves;Eletricista
-234;2025-01-20 00:00:00;OS-1234;Torno CNC;Montagem ;Siemens;Corretiva;Eletricista;15:30;175,53;Válvula;8;Erro operador;Em andamento;TEC012;Camila Ferreira;Automação
-235;2025-04-06 00:00:00;OS-1235;Esteira;Montagem ;Schneider;Corretiva;Automação;03:12;10724,28;CLP;6;Desgaste;Concluída;TEC011;Patricia Souza;Eletricista
-236;2025-05-24 00:00:00;OS-1236;Centro de Usinagem;Usin.;Schneider;Preventiva;Automação;23:24;10924,59;Correia;3;Falha elétrica;Em andamento;TEC005;Lucas Pereira;Automação
-237;2025-01-28 00:00:00;OS-1237;Compressor;Usin.;Schneider;Preventiva;Eletricista;08:48;2970,56;Rolamento;1;Lubrificação;Concluída;TEC005;Lucas Pereira;Automação
-238;2025-04-04 00:00:00;OS-1238;Injetora;Montagem ;Siemens;Preventiva;Automação;13:48;13933,78;Sensor;10;Falha elétrica;Concluída;TEC001;Carlos Silva;Mecânico
-239;2025-05-08 00:00:00;OS-1239;Prensa Hidráulica;Usin.;Siemens;Preditiva;Automação;09:06;1253,75;CLP;7;Erro operador;Em andamento;TEC004;Fernanda Alves;Eletricista
-240;2025-01-15 00:00:00;OS-1240;Soldadora Robotizada;Usin.;Siemens;Preventiva;Eletricista;13:30;1872,32;Filtro;1;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-241;2025-02-13 00:00:00;OS-1241;Dobradeira;Montagem ;Siemens;Corretiva;Automação;20:42;4578,19;Bomba;10;Falha elétrica;Em andamento;TEC002;João Santos;Mecânico
-242;2025-08-03 00:00:00;OS-1242;Centro de Usinagem;Usin.;Fanuc;Preditiva;Mecânico;07:30;6339,25;Motor;6;Falha mecânica;Em andamento;TEC008;Bruno Martins;Eletricista
-243;2025-04-06 00:00:00;OS-1243;Esteira;Usin.;Fanuc;Preventiva;Automação;09:12;4171,39;Filtro;6;Lubrificação;Em andamento;TEC008;Bruno Martins;Eletricista
-244;2025-06-04 00:00:00;OS-1244;Soldadora Robotizada;Usin.;Schneider;Preditiva;Mecânico;01:30;6435,77;Correia;2;Falha elétrica;Em andamento;TEC011;Patricia Souza;Eletricista
-245;2025-06-02 00:00:00;OS-1245;Injetora;Usin.;Fanuc;Preditiva;Mecânico;17:00;1995,86;Correia;7;Falha mecânica;Aberta;TEC003;Ana Costa;Eletricista
-246;2025-06-24 00:00:00;OS-1246;Centro de Usinagem;Montagem ;WEG;Preditiva;Mecânico;13:00;3120,74;Bomba;4;Falha mecânica;Concluída;TEC001;Carlos Silva;Mecânico
-247;2025-08-06 00:00:00;OS-1247;Fresadora CNC;Usin.;Fanuc;Preventiva;Mecânico;00:54;10836,58;Motor;1;Falha mecânica;Concluída;TEC012;Camila Ferreira;Automação
-248;2025-03-05 00:00:00;OS-1248;Injetora;Montagem ;Bosch;Preventiva;Mecânico;05:36;9769,08;CLP;7;Desgaste;Aberta;TEC003;Ana Costa;Eletricista
-249;2025-01-21 00:00:00;OS-1249;Esteira;Usin.;Siemens;Preditiva;Mecânico;03:12;7510,35;Motor;10;Falha mecânica;Aberta;TEC012;Camila Ferreira;Automação
-250;2025-03-20 00:00:00;OS-1250;Torno CNC;Montagem ;WEG;Preventiva;Mecânico;23:00;8403,04;Válvula;1;Erro operador;Em andamento;TEC002;João Santos;Mecânico
-251;2025-04-23 00:00:00;OS-1251;Soldadora Robotizada;Usin.;WEG;Preventiva;Automação;12:36;5671,84;Rolamento;5;Erro operador;Concluída;TEC007;Rafael Lima;Mecânico
-252;2025-02-10 00:00:00;OS-1252;Prensa Hidráulica;Usin.;Siemens;Preditiva;Eletricista;05:42;7509,4;Rolamento;4;Falha mecânica;Concluída;TEC012;Camila Ferreira;Automação
-253;2025-09-02 00:00:00;OS-1253;Dobradeira;Montagem ;Fanuc;Preditiva;Eletricista;09:00;7314,39;CLP;9;Lubrificação;Aberta;TEC001;Carlos Silva;Mecânico
-254;2025-11-03 00:00:00;OS-1254;Centro de Usinagem;Montagem ;Schneider;Preditiva;Mecânico;07:36;11265,77;Motor;7;Falha mecânica;Em andamento;TEC002;João Santos;Mecânico
-255;2025-02-19 00:00:00;OS-1255;Compressor;Montagem ;Fanuc;Corretiva;Automação;02:24;14104,57;Motor;2;Lubrificação;Em andamento;TEC009;Juliana Ribeiro;Automação
-256;2025-04-03 00:00:00;OS-1256;Torno CNC;Montagem ;Bosch;Preditiva;Mecânico;13:42;1496,09;Correia;2;Erro operador;Em andamento;TEC009;Juliana Ribeiro;Automação
-257;2025-02-27 00:00:00;OS-1257;Injetora;Usin.;WEG;Corretiva;Automação;05:48;12116,98;Correia;2;Desgaste;Concluída;TEC001;Carlos Silva;Mecânico
-258;2025-05-22 00:00:00;OS-1258;Centro de Usinagem;Usin.;WEG;Preditiva;Automação;04:18;5476,79;Correia;1;Falha elétrica;Concluída;TEC004;Fernanda Alves;Eletricista
-259;2025-02-28 00:00:00;OS-1259;Torno CNC;Montagem ;Fanuc;Preditiva;Mecânico;02:48;14107,66;Bomba;10;Desgaste;Em andamento;TEC007;Rafael Lima;Mecânico
-260;2025-01-25 00:00:00;OS-1260;Injetora;Montagem ;WEG;Corretiva;Automação;15:06;10812,95;Bomba;1;Falha elétrica;Em andamento;TEC005;Lucas Pereira;Automação
-261;2025-04-13 00:00:00;OS-1261;Fresadora CNC;Montagem ;Fanuc;Preditiva;Automação;11:54;13050,24;Válvula;3;Falha elétrica;Em andamento;TEC009;Juliana Ribeiro;Automação
-262;2025-09-04 00:00:00;OS-1262;Esteira;Usin.;Siemens;Corretiva;Mecânico;00:54;14345,46;CLP;10;Falha mecânica;Em andamento;TEC001;Carlos Silva;Mecânico
-263;2025-04-12 00:00:00;OS-1263;Torno CNC;Usin.;Bosch;Preventiva;Mecânico;13:24;11511,34;Rolamento;10;Lubrificação;Concluída;TEC009;Juliana Ribeiro;Automação
-264;2025-06-20 00:00:00;OS-1264;Injetora;Usin.;WEG;Preventiva;Automação;22:06;7464,31;Correia;6;Desgaste;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-265;2025-11-02 00:00:00;OS-1265;Dobradeira;Usin.;Bosch;Preditiva;Automação;08:24;1826,82;Válvula;6;Lubrificação;Em andamento;TEC012;Camila Ferreira;Automação
-266;2025-01-03 00:00:00;OS-1266;Fresadora CNC;Usin.;WEG;Preventiva;Automação;22:06;7097,26;CLP;2;Desgaste;Em andamento;TEC001;Carlos Silva;Mecânico
-267;2025-04-06 00:00:00;OS-1267;Esteira;Montagem ;Schneider;Preventiva;Eletricista;05:12;1980,48;Motor;9;Falha mecânica;Concluída;TEC002;João Santos;Mecânico
-268;2025-01-22 00:00:00;OS-1268;Corte Laser;Montagem ;Bosch;Corretiva;Automação;15:18;3011,83;Bomba;10;Falha mecânica;Em andamento;TEC009;Juliana Ribeiro;Automação
-269;2025-03-13 00:00:00;OS-1269;Dobradeira;Usin.;Schneider;Corretiva;Mecânico;15:54;14899,8;Sensor;7;Falha mecânica;Em andamento;TEC012;Camila Ferreira;Automação
-270;2025-02-20 00:00:00;OS-1270;Esteira;Usin.;Siemens;Preventiva;Mecânico;09:54;9413,92;Sensor;6;Falha elétrica;Em andamento;TEC005;Lucas Pereira;Automação
-271;2025-05-26 00:00:00;OS-1271;Prensa Hidráulica;Montagem ;WEG;Corretiva;Mecânico;01:00;6791,62;Motor;9;Lubrificação;Em andamento;TEC004;Fernanda Alves;Eletricista
-272;2025-05-01 00:00:00;OS-1272;Compressor;Usin.;Siemens;Preditiva;Automação;12:42;4828,81;CLP;10;Erro operador;Aberta;TEC008;Bruno Martins;Eletricista
-273;2025-05-22 00:00:00;OS-1273;Dobradeira;Usin.;Schneider;Preventiva;Eletricista;07:00;13184,94;Rolamento;10;Falha elétrica;Concluída;TEC011;Patricia Souza;Eletricista
-274;2025-06-13 00:00:00;OS-1274;Torno CNC;Montagem ;Bosch;Corretiva;Eletricista;23:54;4696,16;Correia;8;Erro operador;Aberta;TEC007;Rafael Lima;Mecânico
-275;2025-05-21 00:00:00;OS-1275;Dobradeira;Usin.;WEG;Preditiva;Mecânico;17:48;8199,26;Válvula;10;Lubrificação;Em andamento;TEC004;Fernanda Alves;Eletricista
-276;2025-01-02 00:00:00;OS-1276;Dobradeira;Usin.;Fanuc;Preventiva;Mecânico;13:00;12559,31;Filtro;2;Falha mecânica;Concluída;TEC004;Fernanda Alves;Eletricista
-277;2025-06-01 00:00:00;OS-1277;Torno CNC;Usin.;Siemens;Preventiva;Eletricista;04:54;8447,67;Filtro;10;Desgaste;Em andamento;TEC010;Gustavo Fernandes;Mecânico
-278;2025-04-17 00:00:00;OS-1278;Soldadora Robotizada;Usin.;Fanuc;Preventiva;Automação;08:42;14314,72;Sensor;7;Lubrificação;Em andamento;TEC011;Patricia Souza;Eletricista
-279;2025-06-03 00:00:00;OS-1279;Torno CNC;Montagem ;Schneider;Corretiva;Mecânico;21:48;10046,36;Sensor;3;Falha elétrica;Concluída;TEC012;Camila Ferreira;Automação
-280;2025-06-02 00:00:00;OS-1280;Esteira;Montagem ;Bosch;Preventiva;Automação;23:30;2375,62;Correia;7;Falha mecânica;Aberta;TEC007;Rafael Lima;Mecânico
-281;2025-06-01 00:00:00;OS-1281;Esteira;Montagem ;Bosch;Preventiva;Mecânico;09:30;13683,27;Rolamento;8;Erro operador;Concluída;TEC011;Patricia Souza;Eletricista
-282;2025-04-28 00:00:00;OS-1282;Prensa Hidráulica;Usin.;Fanuc;Preditiva;Automação;16:42;506,7;Motor;1;Falha mecânica;Aberta;TEC009;Juliana Ribeiro;Automação
-283;2025-06-22 00:00:00;OS-1283;Compressor;Montagem ;Schneider;Corretiva;Automação;06:36;6725,45;Filtro;1;Desgaste;Concluída;TEC011;Patricia Souza;Eletricista
-284;2025-10-05 00:00:00;OS-1284;Compressor;Montagem ;WEG;Corretiva;Eletricista;20:00;10485,58;Filtro;9;Erro operador;Concluída;TEC005;Lucas Pereira;Automação
-285;2025-04-17 00:00:00;OS-1285;Torno CNC;Usin.;WEG;Corretiva;Eletricista;22:30;4056,3;Motor;7;Erro operador;Concluída;TEC005;Lucas Pereira;Automação
-286;2025-01-27 00:00:00;OS-1286;Esteira;Montagem ;Fanuc;Preditiva;Automação;20:06;1390,88;Motor;3;Erro operador;Aberta;TEC002;João Santos;Mecânico
-287;2025-01-17 00:00:00;OS-1287;Injetora;Montagem ;WEG;Preditiva;Eletricista;02:24;4290,23;Rolamento;4;Falha elétrica;Concluída;TEC002;João Santos;Mecânico
-288;2025-03-05 00:00:00;OS-1288;Soldadora Robotizada;Montagem ;Schneider;Corretiva;Eletricista;09:54;8728,47;CLP;8;Falha elétrica;Aberta;TEC003;Ana Costa;Eletricista
-289;2025-03-20 00:00:00;OS-1289;Corte Laser;Usin.;WEG;Preventiva;Automação;23:06;3355,4;Motor;6;Falha elétrica;Concluída;TEC005;Lucas Pereira;Automação
-290;2025-02-21 00:00:00;OS-1290;Injetora;Usin.;WEG;Preventiva;Mecânico;23:00;14883,79;Rolamento;8;Lubrificação;Concluída;TEC012;Camila Ferreira;Automação
-291;2025-04-24 00:00:00;OS-1291;Torno CNC;Montagem ;Bosch;Corretiva;Eletricista;09:18;6372,06;Válvula;3;Falha mecânica;Aberta;TEC007;Rafael Lima;Mecânico
-292;2025-06-23 00:00:00;OS-1292;Soldadora Robotizada;Montagem ;Siemens;Preventiva;Eletricista;22:42;13028,55;CLP;1;Erro operador;Em andamento;TEC007;Rafael Lima;Mecânico
-293;2025-01-27 00:00:00;OS-1293;Soldadora Robotizada;Usin.;Siemens;Preventiva;Mecânico;09:18;1654,46;Rolamento;9;Lubrificação;Em andamento;TEC005;Lucas Pereira;Automação
-294;2025-04-18 00:00:00;OS-1294;Dobradeira;Usin.;Siemens;Corretiva;Eletricista;10:06;2086,68;Bomba;1;Erro operador;Concluída;TEC012;Camila Ferreira;Automação
-295;2025-04-04 00:00:00;OS-1295;Centro de Usinagem;Montagem ;Schneider;Preditiva;Mecânico;04:36;6358,86;Filtro;4;Desgaste;Concluída;TEC003;Ana Costa;Eletricista
-296;2025-01-03 00:00:00;OS-1296;Fresadora CNC;Montagem ;WEG;Preventiva;Mecânico;04:30;5389,72;Correia;6;Falha elétrica;Concluída;TEC010;Gustavo Fernandes;Mecânico
-297;2025-01-13 00:00:00;OS-1297;Torno CNC;Usin.;Bosch;Preventiva;Automação;16:12;7589,6;Filtro;10;Lubrificação;Em andamento;TEC001;Carlos Silva;Mecânico
-298;2025-01-16 00:00:00;OS-1298;Torno CNC;Montagem ;Schneider;Corretiva;Mecânico;01:12;5692,44;CLP;8;Desgaste;Concluída;TEC009;Juliana Ribeiro;Automação
-299;2025-02-10 00:00:00;OS-1299;Corte Laser;Montagem ;Bosch;Corretiva;Automação;08:30;1756,09;Bomba;6;Lubrificação;Aberta;TEC007;Rafael Lima;Mecânico
-300;2025-05-21 00:00:00;OS-1300;Compressor;Usin.;Fanuc;Preventiva;Eletricista;12:12;4779,24;Motor;5;Falha elétrica;Aberta;TEC010;Gustavo Fernandes;Mecânico
+ID_Registro,Data_Manutencao,Numero_OS,Maquina,Setor,Fabricante,Tipo_Manutencao,Horas_Parada,Custo_Manutencao,Peca_Utilizada,Quantidade_Pecas,Causa_Falha,Status_OS
+1,2025-04-26,OS-1001,Prensa HidrÃ¡ulica,Montagem ,Bosch,Preventiva,17:42:00,701.11,Bomba,3,Falha elÃ©trica,Aberta
+2,2025-02-17,OS-1002,Prensa HidrÃ¡ulica,Montagem ,Siemens,Preditiva,17:12:00,11805.37,Bomba,7,Falha elÃ©trica,ConcluÃ­da
+3,2025-02-03,OS-1003,Torno CNC,Montagem ,WEG,Preditiva,08:00:00,9588.87,Filtro,8,LubrificaÃ§Ã£o,Em andamento
+4,2025-04-29,OS-1004,Torno CNC,Usinagem,Schneider,Preditiva,03:24:00,6849.24,Sensor,9,Falha mecÃ¢nica,Em andamento
+5,2025-02-06,OS-1005,Prensa HidrÃ¡ulica,Usinagem,Siemens,Preditiva,07:36:00,12967.13,Sensor,4,Falha mecÃ¢nica,ConcluÃ­da
+6,2025-02-01,OS-1006,Torno CNC,Usinagem,Bosch,Corretiva,06:00:00,3489.14,Rolamento,1,LubrificaÃ§Ã£o,Aberta
+7,2025-02-24,OS-1007,Prensa HidrÃ¡ulica,Montagem ,Schneider,Preventiva,14:00:00,6187.44,Bomba,1,LubrificaÃ§Ã£o,Em andamento
+8,2025-05-29,OS-1008,Torno CNC,Usinagem,Bosch,Corretiva,12:00:00,2551.49,Correia,3,Erro operador,ConcluÃ­da
+9,2025-04-06,OS-1009,Prensa HidrÃ¡ulica,Usinagem,Schneider,Corretiva,02:06:00,4107.68,Bomba,3,Desgaste,Aberta
+10,2025-06-24,OS-1010,Torno CNC,Usinagem,WEG,Corretiva,02:30:00,8571.51,Filtro,2,Falha elÃ©trica,Em andamento
+11,2025-05-25,OS-1011,Torno CNC,Usinagem,Siemens,Preditiva,04:06:00,12110.19,Filtro,1,Erro operador,Em andamento
+12,2025-02-08,OS-1012,Prensa HidrÃ¡ulica,Montagem ,Bosch,Preventiva,16:30:00,8715.27,CLP,7,Falha mecÃ¢nica,ConcluÃ­da
+13,2025-03-11,OS-1013,Torno CNC,Usinagem,Fanuc,Preventiva,08:00:00,1423.19,Bomba,10,Desgaste,Em andamento
+14,2025-04-02,OS-1014,Torno CNC,Usinagem,Bosch,Corretiva,03:30:00,1974.51,Filtro,3,Falha mecÃ¢nica,ConcluÃ­da
+15,2025-01-04,OS-1015,Prensa HidrÃ¡ulica,Usinagem,Schneider,Preventiva,16:54:00,1809.7,Rolamento,10,Falha mecÃ¢nica,ConcluÃ­da
+16,2025-02-07,OS-1016,Torno CNC,Montagem ,Siemens,Corretiva,06:48:00,8621.91,Rolamento,9,Falha mecÃ¢nica,Aberta
+17,2025-01-03,OS-1017,Prensa HidrÃ¡ulica,Usinagem,Siemens,Preventiva,19:24:00,4634.9,Motor,10,Falha mecÃ¢nica,Aberta
+18,2025-05-09,OS-1018,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Preventiva,10:24:00,4807.29,Correia,10,Falha elÃ©trica,ConcluÃ­da
+19,2025-01-12,OS-1019,Prensa HidrÃ¡ulica,Usinagem,Bosch,Corretiva,16:06:00,1252.64,VÃ¡lvula,9,Falha elÃ©trica,Em andamento
+20,2025-04-06,OS-1020,Torno CNC,Usinagem,Fanuc,Preventiva,01:00:00,7618.99,Bomba,9,Falha elÃ©trica,Aberta
+21,2025-05-06,OS-1021,Torno CNC,Montagem ,Siemens,Preventiva,04:18:00,8166.03,Correia,1,Falha elÃ©trica,ConcluÃ­da
+22,2025-02-01,OS-1022,Torno CNC,Montagem ,WEG,Preditiva,18:24:00,14558.85,CLP,3,LubrificaÃ§Ã£o,Em andamento
+23,2025-03-05,OS-1023,Torno CNC,Montagem ,Fanuc,Preventiva,02:30:00,12373.78,Sensor,7,Desgaste,Em andamento
+24,2025-05-12,OS-1024,Prensa HidrÃ¡ulica,Montagem ,Siemens,Corretiva,01:54:00,7059.37,Motor,4,Falha mecÃ¢nica,Aberta
+25,2025-06-18,OS-1025,Prensa HidrÃ¡ulica,Usinagem,Schneider,Corretiva,13:06:00,4251.51,CLP,8,Falha mecÃ¢nica,ConcluÃ­da
+26,2025-03-06,OS-1026,Torno CNC,Usinagem,Schneider,Corretiva,16:48:00,10425.5,Filtro,3,Desgaste,Aberta
+27,2025-03-15,OS-1027,Torno CNC,Usinagem,WEG,Preventiva,08:42:00,13434.61,Bomba,10,Falha mecÃ¢nica,Aberta
+28,2025-06-24,OS-1028,Torno CNC,Usinagem,Fanuc,Corretiva,05:54:00,5395.57,Bomba,5,Falha mecÃ¢nica,ConcluÃ­da
+29,2025-02-18,OS-1029,Torno CNC,Usinagem,Bosch,Corretiva,23:06:00,4436.93,CLP,3,Falha mecÃ¢nica,Em andamento
+30,2025-06-13,OS-1030,Prensa HidrÃ¡ulica,Usinagem,Bosch,Preditiva,13:54:00,6884.45,Bomba,7,Falha mecÃ¢nica,ConcluÃ­da
+31,2025-05-06,OS-1031,Fresadora CNC,Usinagem,Bosch,Preventiva,13:48:00,2938.37,VÃ¡lvula,3,Desgaste,ConcluÃ­da
+32,2025-06-16,OS-1032,Compressor,Usinagem,Bosch,Preditiva,23:24:00,3515.95,Rolamento,1,Erro operador,Em andamento
+33,2025-03-15,OS-1033,Esteira,Usinagem,Bosch,Preventiva,13:42:00,3257.71,Motor,4,LubrificaÃ§Ã£o,ConcluÃ­da
+34,2025-06-10,OS-1034,Soldadora Robotizada,Montagem ,Siemens,Preventiva,04:30:00,10930.88,Sensor,2,Falha elÃ©trica,ConcluÃ­da
+35,2025-04-10,OS-1035,Fresadora CNC,Usinagem,Siemens,Preventiva,02:24:00,1862.86,Sensor,5,Erro operador,Aberta
+36,2025-04-13,OS-1036,Dobradeira,Montagem ,Fanuc,Corretiva,18:54:00,7666.07,Sensor,8,Falha elÃ©trica,Aberta
+37,2025-04-10,OS-1037,Prensa HidrÃ¡ulica,Usinagem,WEG,Preditiva,14:30:00,9821.61,VÃ¡lvula,6,Erro operador,Aberta
+38,2025-06-26,OS-1038,Prensa HidrÃ¡ulica,Montagem ,Siemens,Preventiva,21:48:00,4009.59,Motor,8,LubrificaÃ§Ã£o,Aberta
+39,2025-06-29,OS-1039,Prensa HidrÃ¡ulica,Montagem ,WEG,Preventiva,07:06:00,3608.4,VÃ¡lvula,6,Desgaste,ConcluÃ­da
+40,2025-04-23,OS-1040,Dobradeira,Montagem ,Schneider,Corretiva,14:42:00,5611.45,CLP,10,Erro operador,ConcluÃ­da
+41,2025-05-22,OS-1041,Fresadora CNC,Montagem ,WEG,Preventiva,20:30:00,14413.02,Correia,10,LubrificaÃ§Ã£o,Em andamento
+42,2025-04-07,OS-1042,Fresadora CNC,Montagem ,Fanuc,Preventiva,12:36:00,10335.53,CLP,7,Falha mecÃ¢nica,Em andamento
+43,2025-04-26,OS-1043,Centro de Usinagem,Usinagem,Bosch,Preventiva,04:00:00,5241.2,Rolamento,5,Erro operador,ConcluÃ­da
+44,2025-05-28,OS-1044,Centro de Usinagem,Usinagem,Fanuc,Preditiva,01:24:00,6596.87,VÃ¡lvula,1,Desgaste,ConcluÃ­da
+45,2025-06-08,OS-1045,Dobradeira,Usinagem,Fanuc,Corretiva,08:18:00,2340.63,VÃ¡lvula,4,Erro operador,Em andamento
+46,2025-06-01,OS-1046,Torno CNC,Usinagem,Schneider,Preventiva,15:36:00,3512.06,Motor,1,Erro operador,Em andamento
+47,2025-05-03,OS-1047,Dobradeira,Usinagem,Fanuc,Corretiva,05:54:00,1477.34,VÃ¡lvula,10,Desgaste,Aberta
+48,2025-01-05,OS-1048,Compressor,Usinagem,Fanuc,Preditiva,03:06:00,4400.13,CLP,9,Erro operador,Em andamento
+49,2025-04-04,OS-1049,Injetora,Usinagem,Bosch,Preditiva,12:00:00,5552.44,Sensor,6,Falha elÃ©trica,ConcluÃ­da
+50,2025-04-19,OS-1050,Soldadora Robotizada,Usinagem,Fanuc,Preventiva,11:42:00,9990.53,Rolamento,1,LubrificaÃ§Ã£o,ConcluÃ­da
+51,2025-03-05,OS-1051,Dobradeira,Montagem ,Bosch,Corretiva,07:06:00,4460.38,CLP,7,Erro operador,Aberta
+52,2025-03-26,OS-1052,Compressor,Montagem ,Fanuc,Preventiva,07:06:00,9998.8,Filtro,9,Falha elÃ©trica,Em andamento
+53,2025-06-05,OS-1053,Centro de Usinagem,Usinagem,Schneider,Corretiva,07:06:00,7357.88,Rolamento,4,Falha elÃ©trica,Aberta
+54,2025-03-01,OS-1054,Dobradeira,Usinagem,Fanuc,Preventiva,10:42:00,4833.4,Bomba,3,Erro operador,Em andamento
+55,2025-03-02,OS-1055,Injetora,Montagem ,Siemens,Preditiva,04:12:00,4641.3,Rolamento,9,Falha mecÃ¢nica,Em andamento
+56,2025-04-29,OS-1056,Dobradeira,Usinagem,WEG,Preditiva,08:48:00,12128.2,Rolamento,9,Falha mecÃ¢nica,Em andamento
+57,2025-04-06,OS-1057,Prensa HidrÃ¡ulica,Montagem ,Siemens,Preditiva,14:18:00,7686.74,VÃ¡lvula,4,LubrificaÃ§Ã£o,Aberta
+58,2025-04-27,OS-1058,Soldadora Robotizada,Montagem ,WEG,Preventiva,04:06:00,5627.44,Rolamento,8,Desgaste,Aberta
+59,2025-02-25,OS-1059,Corte Laser,Usinagem,Siemens,Corretiva,12:54:00,6892.21,Filtro,10,LubrificaÃ§Ã£o,Em andamento
+60,2025-04-05,OS-1060,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Corretiva,08:42:00,10438.56,Filtro,5,Desgaste,Aberta
+61,2025-05-08,OS-1061,Compressor,Usinagem,Bosch,Preditiva,16:24:00,2161.33,VÃ¡lvula,8,LubrificaÃ§Ã£o,ConcluÃ­da
+62,2025-04-18,OS-1062,Compressor,Usinagem,WEG,Corretiva,13:30:00,5538.52,CLP,1,LubrificaÃ§Ã£o,ConcluÃ­da
+63,2025-06-25,OS-1063,Esteira,Montagem ,Siemens,Preventiva,01:18:00,13878.93,Correia,9,Desgaste,Em andamento
+64,2025-01-05,OS-1064,Esteira,Montagem ,Fanuc,Preditiva,02:06:00,9197.75,CLP,8,Falha elÃ©trica,Em andamento
+65,2025-02-11,OS-1065,Compressor,Montagem ,Bosch,Preditiva,07:48:00,12667.05,Rolamento,10,Desgaste,Aberta
+66,2025-03-04,OS-1066,Injetora,Usinagem,Bosch,Preditiva,09:12:00,5960.37,Correia,7,Desgaste,Aberta
+67,2025-02-24,OS-1067,Fresadora CNC,Montagem ,Fanuc,Preventiva,08:54:00,13552.96,Filtro,5,Erro operador,Aberta
+68,2025-06-01,OS-1068,Prensa HidrÃ¡ulica,Usinagem,Siemens,Preditiva,21:00:00,14649.26,Sensor,2,Falha elÃ©trica,Aberta
+69,2025-04-09,OS-1069,Dobradeira,Montagem ,Siemens,Corretiva,07:42:00,8322.14,CLP,2,LubrificaÃ§Ã£o,Aberta
+70,2025-06-14,OS-1070,Fresadora CNC,Usinagem,Siemens,Preventiva,07:00:00,363.73,Bomba,7,LubrificaÃ§Ã£o,ConcluÃ­da
+71,2025-05-15,OS-1071,Injetora,Usinagem,WEG,Preditiva,02:48:00,3379.95,Motor,10,Falha elÃ©trica,Aberta
+72,2025-04-03,OS-1072,Fresadora CNC,Montagem ,Siemens,Preventiva,13:48:00,3344.42,CLP,9,Falha mecÃ¢nica,Em andamento
+73,2025-06-19,OS-1073,Centro de Usinagem,Usinagem,Schneider,Corretiva,08:06:00,3216.2,Rolamento,2,Erro operador,ConcluÃ­da
+74,2025-01-11,OS-1074,Esteira,Montagem ,Siemens,Corretiva,04:06:00,6573.37,Sensor,4,Erro operador,Aberta
+75,2025-05-11,OS-1075,Fresadora CNC,Montagem ,Siemens,Preventiva,02:24:00,14966.45,Sensor,7,Erro operador,Aberta
+76,2025-02-21,OS-1076,Compressor,Usinagem,Siemens,Preditiva,02:18:00,10690.74,Motor,7,LubrificaÃ§Ã£o,Aberta
+77,2025-05-02,OS-1077,Compressor,Montagem ,Siemens,Preventiva,13:30:00,10098.78,VÃ¡lvula,10,LubrificaÃ§Ã£o,ConcluÃ­da
+78,2025-02-25,OS-1078,Fresadora CNC,Usinagem,Fanuc,Preventiva,22:54:00,14046.77,Motor,10,Desgaste,Aberta
+79,2025-03-16,OS-1079,Centro de Usinagem,Montagem ,Schneider,Preditiva,05:00:00,7741.66,Filtro,2,Falha mecÃ¢nica,Em andamento
+80,2025-03-18,OS-1080,Dobradeira,Usinagem,Fanuc,Preventiva,18:54:00,2710.67,Motor,10,Falha mecÃ¢nica,Aberta
+81,2025-03-17,OS-1081,Injetora,Usinagem,Siemens,Preventiva,08:30:00,7113.66,Correia,9,Falha elÃ©trica,ConcluÃ­da
+82,2025-06-24,OS-1082,Corte Laser,Usinagem,Schneider,Corretiva,08:36:00,4042.06,Filtro,5,Erro operador,Aberta
+83,2025-03-03,OS-1083,Compressor,Montagem ,Fanuc,Preventiva,12:54:00,524.08,Motor,10,Erro operador,Aberta
+84,2025-04-21,OS-1084,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Preditiva,08:00:00,2272.14,Filtro,10,Falha mecÃ¢nica,ConcluÃ­da
+85,2025-06-12,OS-1085,Dobradeira,Montagem ,Bosch,Corretiva,17:12:00,8225.53,Motor,8,Desgaste,Em andamento
+86,2025-06-05,OS-1086,Injetora,Usinagem,Siemens,Corretiva,09:18:00,12182.36,Correia,4,LubrificaÃ§Ã£o,ConcluÃ­da
+87,2025-03-16,OS-1087,Soldadora Robotizada,Usinagem,Siemens,Preditiva,12:18:00,234.81,CLP,4,Falha elÃ©trica,ConcluÃ­da
+88,2025-04-24,OS-1088,Dobradeira,Montagem ,Fanuc,Corretiva,19:12:00,14914.99,Motor,5,Erro operador,Em andamento
+89,2025-06-23,OS-1089,Dobradeira,Usinagem,Siemens,Preventiva,22:00:00,8169.81,Motor,10,Falha elÃ©trica,ConcluÃ­da
+90,2025-03-30,OS-1090,Centro de Usinagem,Usinagem,Fanuc,Preditiva,13:24:00,14613.71,CLP,2,LubrificaÃ§Ã£o,ConcluÃ­da
+91,2025-02-01,OS-1091,Compressor,Usinagem,Schneider,Preditiva,22:18:00,13822.9,Rolamento,5,Erro operador,Em andamento
+92,2025-01-21,OS-1092,Prensa HidrÃ¡ulica,Usinagem,Schneider,Preditiva,06:54:00,10070.9,VÃ¡lvula,1,LubrificaÃ§Ã£o,Aberta
+93,2025-01-02,OS-1093,Esteira,Usinagem,WEG,Preditiva,16:36:00,6858.46,Sensor,1,Falha elÃ©trica,Aberta
+94,2025-04-26,OS-1094,Injetora,Montagem ,Schneider,Corretiva,12:54:00,7405.5,Correia,8,Falha elÃ©trica,Aberta
+95,2025-03-01,OS-1095,Soldadora Robotizada,Usinagem,WEG,Corretiva,00:36:00,7496.55,Motor,3,Falha elÃ©trica,Aberta
+96,2025-01-22,OS-1096,Injetora,Usinagem,WEG,Corretiva,04:48:00,4133.76,Rolamento,8,Falha mecÃ¢nica,ConcluÃ­da
+97,2025-05-05,OS-1097,Torno CNC,Usinagem,Bosch,Corretiva,05:06:00,13831.35,Sensor,9,Falha elÃ©trica,Aberta
+98,2025-06-02,OS-1098,Fresadora CNC,Montagem ,Fanuc,Preditiva,07:54:00,12367.88,Bomba,3,Falha mecÃ¢nica,ConcluÃ­da
+99,2025-04-07,OS-1099,Centro de Usinagem,Montagem ,WEG,Preditiva,01:36:00,14594.16,Sensor,2,Falha elÃ©trica,Aberta
+100,2025-03-12,OS-1100,Torno CNC,Usinagem,WEG,Corretiva,06:24:00,10173.31,Motor,6,Desgaste,Aberta
+101,2025-05-03,OS-1101,Fresadora CNC,Usinagem,Siemens,Corretiva,16:30:00,3246.49,Bomba,5,Erro operador,Aberta
+102,2025-02-16,OS-1102,Centro de Usinagem,Usinagem,Schneider,Corretiva,06:30:00,10103.94,VÃ¡lvula,2,Desgaste,ConcluÃ­da
+103,2025-04-28,OS-1103,Soldadora Robotizada,Usinagem,Bosch,Preditiva,22:12:00,9070.6,Motor,6,Falha elÃ©trica,Aberta
+104,2025-02-23,OS-1104,Soldadora Robotizada,Montagem ,Bosch,Preventiva,15:36:00,7406.03,Sensor,7,Falha mecÃ¢nica,Em andamento
+105,2025-02-14,OS-1105,Esteira,Montagem ,Siemens,Preditiva,17:24:00,8561.79,Correia,9,Falha mecÃ¢nica,Em andamento
+106,2025-01-10,OS-1106,Soldadora Robotizada,Usinagem,Fanuc,Preventiva,21:24:00,8547.55,Sensor,2,Falha elÃ©trica,Aberta
+107,2025-04-25,OS-1107,Esteira,Usinagem,Fanuc,Preditiva,12:48:00,10733.5,Rolamento,7,LubrificaÃ§Ã£o,Em andamento
+108,2025-03-13,OS-1108,Prensa HidrÃ¡ulica,Montagem ,Schneider,Preditiva,19:12:00,11220.27,Correia,2,Falha mecÃ¢nica,ConcluÃ­da
+109,2025-05-31,OS-1109,Injetora,Usinagem,Fanuc,Preventiva,13:24:00,4176.01,Rolamento,10,Falha mecÃ¢nica,Em andamento
+110,2025-02-19,OS-1110,Centro de Usinagem,Usinagem,Siemens,Corretiva,15:30:00,10826.72,Bomba,9,Falha elÃ©trica,ConcluÃ­da
+111,2025-05-03,OS-1111,Torno CNC,Usinagem,Fanuc,Preventiva,01:42:00,6318.65,Sensor,4,Desgaste,Em andamento
+112,2025-01-08,OS-1112,Compressor,Montagem ,Bosch,Corretiva,19:54:00,2757.36,VÃ¡lvula,7,LubrificaÃ§Ã£o,ConcluÃ­da
+113,2025-01-15,OS-1113,Fresadora CNC,Usinagem,Siemens,Preditiva,22:54:00,1225.55,Rolamento,9,Falha elÃ©trica,Aberta
+114,2025-06-09,OS-1114,Centro de Usinagem,Montagem ,Schneider,Corretiva,04:24:00,5879.02,Correia,9,Falha elÃ©trica,Em andamento
+115,2025-02-22,OS-1115,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Preventiva,01:18:00,7704.55,Correia,7,Erro operador,Em andamento
+116,2025-05-13,OS-1116,Corte Laser,Usinagem,Schneider,Preventiva,14:00:00,13406.8,Rolamento,7,Erro operador,Em andamento
+117,2025-01-06,OS-1117,Corte Laser,Montagem ,Bosch,Preditiva,02:54:00,3150.07,Rolamento,9,Desgaste,Aberta
+118,2025-06-13,OS-1118,Torno CNC,Usinagem,Bosch,Preditiva,13:12:00,9985.99,VÃ¡lvula,2,Falha mecÃ¢nica,ConcluÃ­da
+119,2025-06-05,OS-1119,Compressor,Usinagem,WEG,Preventiva,00:42:00,9925.52,Sensor,6,Desgaste,ConcluÃ­da
+120,2025-03-10,OS-1120,Corte Laser,Usinagem,Siemens,Corretiva,18:36:00,3191.53,Rolamento,7,Erro operador,Em andamento
+121,2025-04-05,OS-1121,Esteira,Montagem ,Fanuc,Preditiva,10:00:00,10270.8,VÃ¡lvula,2,Erro operador,ConcluÃ­da
+122,2025-05-20,OS-1122,Soldadora Robotizada,Montagem ,Fanuc,Corretiva,13:36:00,7096.43,CLP,6,Desgaste,Em andamento
+123,2025-03-15,OS-1123,Dobradeira,Usinagem,Bosch,Corretiva,13:30:00,7656.92,Correia,3,LubrificaÃ§Ã£o,Aberta
+124,2025-02-15,OS-1124,Soldadora Robotizada,Montagem ,Bosch,Preditiva,03:06:00,14874.28,Rolamento,8,LubrificaÃ§Ã£o,Em andamento
+125,2025-05-13,OS-1125,Compressor,Usinagem,Fanuc,Preventiva,15:36:00,4389.06,Sensor,10,Erro operador,Aberta
+126,2025-02-01,OS-1126,Dobradeira,Montagem ,Fanuc,Preventiva,02:24:00,9011.87,Motor,7,Falha elÃ©trica,ConcluÃ­da
+127,2025-03-08,OS-1127,Injetora,Montagem ,Siemens,Preventiva,10:00:00,4102.6,Sensor,8,Falha mecÃ¢nica,Em andamento
+128,2025-04-22,OS-1128,Injetora,Usinagem,Bosch,Preventiva,11:54:00,11818.13,Filtro,8,Desgaste,Em andamento
+129,2025-03-15,OS-1129,Centro de Usinagem,Usinagem,Fanuc,Corretiva,06:12:00,8508.79,CLP,9,LubrificaÃ§Ã£o,Em andamento
+130,2025-03-31,OS-1130,Fresadora CNC,Usinagem,WEG,Preventiva,19:12:00,11340.58,VÃ¡lvula,2,Desgaste,Aberta
+131,2025-03-25,OS-1131,Injetora,Usinagem,Bosch,Corretiva,16:12:00,11152.62,Bomba,9,Falha elÃ©trica,Em andamento
+132,2025-04-24,OS-1132,Dobradeira,Usinagem,Fanuc,Preditiva,13:06:00,14087.06,VÃ¡lvula,7,Erro operador,Aberta
+133,2025-01-03,OS-1133,Dobradeira,Usinagem,Schneider,Preventiva,03:18:00,11168.06,VÃ¡lvula,3,Desgaste,ConcluÃ­da
+134,2025-03-13,OS-1134,Compressor,Montagem ,Fanuc,Preventiva,07:06:00,14894.27,Rolamento,9,Desgaste,ConcluÃ­da
+135,2025-01-18,OS-1135,Dobradeira,Montagem ,Schneider,Preventiva,02:12:00,1105.66,Motor,1,Erro operador,Em andamento
+136,2025-01-09,OS-1136,Prensa HidrÃ¡ulica,Montagem ,WEG,Preventiva,09:42:00,7942.24,VÃ¡lvula,4,Falha mecÃ¢nica,Em andamento
+137,2025-04-20,OS-1137,Corte Laser,Usinagem,Siemens,Preditiva,11:36:00,11857.93,Correia,1,LubrificaÃ§Ã£o,ConcluÃ­da
+138,2025-05-22,OS-1138,Fresadora CNC,Montagem ,Siemens,Preventiva,01:24:00,11962.77,Rolamento,4,Falha mecÃ¢nica,ConcluÃ­da
+139,2025-04-10,OS-1139,Fresadora CNC,Montagem ,Schneider,Preventiva,20:48:00,14880.38,Filtro,6,Desgaste,Aberta
+140,2025-02-22,OS-1140,Fresadora CNC,Usinagem,Bosch,Preditiva,05:48:00,2157.41,Sensor,10,Erro operador,Aberta
+141,2025-03-09,OS-1141,Compressor,Montagem ,Siemens,Preditiva,09:18:00,1658.91,Bomba,8,Falha elÃ©trica,Aberta
+142,2025-01-19,OS-1142,Prensa HidrÃ¡ulica,Usinagem,Schneider,Preditiva,20:06:00,12392.43,Filtro,8,Erro operador,Aberta
+143,2025-06-12,OS-1143,Fresadora CNC,Usinagem,Fanuc,Preventiva,20:30:00,2541.89,Filtro,8,Desgaste,Em andamento
+144,2025-01-29,OS-1144,Centro de Usinagem,Usinagem,Siemens,Preditiva,03:42:00,13891.43,VÃ¡lvula,7,Falha mecÃ¢nica,ConcluÃ­da
+145,2025-04-20,OS-1145,Fresadora CNC,Montagem ,Siemens,Preventiva,16:36:00,173.38,Filtro,6,Falha mecÃ¢nica,Em andamento
+146,2025-06-17,OS-1146,Corte Laser,Usinagem,Bosch,Preventiva,20:48:00,8044.73,Rolamento,4,LubrificaÃ§Ã£o,Em andamento
+147,2025-03-19,OS-1147,Compressor,Montagem ,WEG,Corretiva,07:06:00,7239.08,Motor,3,Desgaste,Aberta
+148,2025-06-29,OS-1148,Centro de Usinagem,Montagem ,Fanuc,Preditiva,10:36:00,13172.02,Sensor,3,Falha elÃ©trica,Aberta
+149,2025-06-28,OS-1149,Torno CNC,Montagem ,Fanuc,Corretiva,00:48:00,14980.45,Motor,4,Erro operador,Em andamento
+150,2025-02-13,OS-1150,Injetora,Usinagem,Siemens,Preditiva,10:54:00,2353.2,Motor,1,Falha elÃ©trica,Aberta
+151,2025-01-04,OS-1151,Prensa HidrÃ¡ulica,Montagem ,Fanuc,Corretiva,13:54:00,1452.29,Motor,8,Desgaste,Aberta
+152,2025-04-22,OS-1152,Prensa HidrÃ¡ulica,Montagem ,WEG,Preditiva,04:06:00,6458.13,Bomba,8,Desgaste,ConcluÃ­da
+153,2025-06-03,OS-1153,Dobradeira,Montagem ,Schneider,Corretiva,19:18:00,9034.55,CLP,4,Erro operador,Aberta
+154,2025-04-03,OS-1154,Corte Laser,Usinagem,WEG,Preventiva,03:30:00,11993.44,Bomba,10,Desgaste,ConcluÃ­da
+155,2025-01-21,OS-1155,Corte Laser,Usinagem,Fanuc,Preditiva,02:12:00,11955.99,CLP,9,Falha mecÃ¢nica,ConcluÃ­da
+156,2025-03-25,OS-1156,Torno CNC,Montagem ,WEG,Preditiva,15:48:00,13669.29,Correia,5,Desgaste,Em andamento
+157,2025-05-03,OS-1157,Corte Laser,Montagem ,Schneider,Corretiva,11:00:00,14676.74,Bomba,7,LubrificaÃ§Ã£o,Em andamento
+158,2025-03-09,OS-1158,Injetora,Usinagem,Siemens,Preventiva,10:54:00,5064.22,CLP,5,LubrificaÃ§Ã£o,Aberta
+159,2025-05-04,OS-1159,Prensa HidrÃ¡ulica,Usinagem,WEG,Corretiva,17:12:00,1238.04,Sensor,3,Falha mecÃ¢nica,Aberta
+160,2025-03-29,OS-1160,Esteira,Usinagem,Fanuc,Preditiva,02:06:00,13459.02,Bomba,6,Falha elÃ©trica,Aberta
+161,2025-02-07,OS-1161,Centro de Usinagem,Usinagem,Schneider,Preventiva,11:30:00,5012.82,Rolamento,3,Erro operador,Aberta
+162,2025-02-14,OS-1162,Prensa HidrÃ¡ulica,Montagem ,Fanuc,Corretiva,14:06:00,4197.29,Filtro,8,Falha elÃ©trica,ConcluÃ­da
+163,2025-02-28,OS-1163,Esteira,Montagem ,Bosch,Preventiva,04:12:00,3639.91,Rolamento,1,Erro operador,ConcluÃ­da
+164,2025-05-15,OS-1164,Injetora,Usinagem,WEG,Preventiva,08:06:00,2276.15,VÃ¡lvula,4,Falha elÃ©trica,ConcluÃ­da
+165,2025-05-13,OS-1165,Esteira,Montagem ,Schneider,Corretiva,15:54:00,5273.63,Correia,1,LubrificaÃ§Ã£o,Aberta
+166,2025-02-22,OS-1166,Corte Laser,Montagem ,Bosch,Corretiva,10:00:00,4930.64,Rolamento,7,Desgaste,Em andamento
+167,2025-06-22,OS-1167,Dobradeira,Montagem ,Schneider,Corretiva,21:00:00,3400.34,Rolamento,9,Desgaste,Em andamento
+168,2025-03-05,OS-1168,Esteira,Montagem ,Fanuc,Preventiva,13:30:00,10823.56,Motor,7,Desgaste,Aberta
+169,2025-02-01,OS-1169,Prensa HidrÃ¡ulica,Montagem ,WEG,Corretiva,08:18:00,2525.99,VÃ¡lvula,2,Erro operador,Aberta
+170,2025-04-14,OS-1170,Injetora,Montagem ,WEG,Preventiva,23:06:00,2052.89,Sensor,10,Falha mecÃ¢nica,Aberta
+171,2025-03-07,OS-1171,Soldadora Robotizada,Montagem ,WEG,Corretiva,07:54:00,3537.36,Bomba,5,Erro operador,Em andamento
+172,2025-02-13,OS-1172,Centro de Usinagem,Montagem ,Schneider,Preventiva,01:00:00,9534.5,Bomba,5,Falha mecÃ¢nica,Em andamento
+173,2025-04-14,OS-1173,Fresadora CNC,Usinagem,Bosch,Corretiva,13:30:00,824.42,Sensor,3,Erro operador,Aberta
+174,2025-04-26,OS-1174,Injetora,Montagem ,Siemens,Preditiva,01:30:00,1985.67,Motor,2,Erro operador,Aberta
+175,2025-03-04,OS-1175,Injetora,Montagem ,Schneider,Preditiva,02:48:00,3787.58,CLP,3,Erro operador,ConcluÃ­da
+176,2025-02-09,OS-1176,Centro de Usinagem,Usinagem,Fanuc,Corretiva,21:30:00,7599.04,Correia,7,Falha elÃ©trica,ConcluÃ­da
+177,2025-04-23,OS-1177,Compressor,Montagem ,Schneider,Preditiva,16:06:00,7260.95,Filtro,7,Desgaste,Aberta
+178,2025-02-01,OS-1178,Torno CNC,Montagem ,WEG,Preditiva,11:12:00,8761.59,Filtro,10,Falha mecÃ¢nica,Em andamento
+179,2025-01-12,OS-1179,Esteira,Montagem ,Siemens,Preditiva,12:24:00,5789.62,VÃ¡lvula,8,Erro operador,Em andamento
+180,2025-05-15,OS-1180,Soldadora Robotizada,Montagem ,Schneider,Preventiva,16:48:00,12927.3,CLP,2,Falha elÃ©trica,ConcluÃ­da
+181,2025-04-15,OS-1181,Compressor,Usinagem,Schneider,Preventiva,09:30:00,4787.71,Correia,9,Desgaste,ConcluÃ­da
+182,2025-02-19,OS-1182,Dobradeira,Montagem ,WEG,Corretiva,14:48:00,8916.78,Filtro,7,LubrificaÃ§Ã£o,Aberta
+183,2025-05-29,OS-1183,Dobradeira,Montagem ,WEG,Corretiva,18:24:00,143.52,Motor,2,Desgaste,ConcluÃ­da
+184,2025-01-31,OS-1184,Torno CNC,Montagem ,Bosch,Preditiva,18:36:00,7110.91,Bomba,8,Falha mecÃ¢nica,Em andamento
+185,2025-05-14,OS-1185,Centro de Usinagem,Usinagem,WEG,Corretiva,02:54:00,4353.11,VÃ¡lvula,9,Falha elÃ©trica,Em andamento
+186,2025-01-21,OS-1186,Torno CNC,Usinagem,Siemens,Preventiva,15:06:00,452.43,VÃ¡lvula,10,Falha mecÃ¢nica,Em andamento
+187,2025-06-30,OS-1187,Compressor,Usinagem,Schneider,Corretiva,07:48:00,6911.1,VÃ¡lvula,9,LubrificaÃ§Ã£o,ConcluÃ­da
+188,2025-06-10,OS-1188,Soldadora Robotizada,Montagem ,Schneider,Preditiva,19:12:00,1538.0,CLP,3,LubrificaÃ§Ã£o,Em andamento
+189,2025-03-06,OS-1189,Compressor,Usinagem,WEG,Preventiva,17:48:00,9886.12,Sensor,3,Erro operador,ConcluÃ­da
+190,2025-06-06,OS-1190,Corte Laser,Montagem ,Fanuc,Preventiva,12:30:00,7311.92,VÃ¡lvula,5,Falha elÃ©trica,Em andamento
+191,2025-05-29,OS-1191,Compressor,Montagem ,Schneider,Corretiva,16:36:00,8451.71,Bomba,7,Erro operador,ConcluÃ­da
+192,2025-06-27,OS-1192,Compressor,Montagem ,Siemens,Preventiva,21:06:00,12903.36,Bomba,10,LubrificaÃ§Ã£o,Em andamento
+193,2025-01-01,OS-1193,Dobradeira,Usinagem,WEG,Preditiva,20:24:00,6740.82,CLP,4,Falha mecÃ¢nica,ConcluÃ­da
+194,2025-01-01,OS-1194,Dobradeira,Montagem ,Fanuc,Preditiva,23:12:00,696.7,Sensor,5,Falha mecÃ¢nica,ConcluÃ­da
+195,2025-05-19,OS-1195,Prensa HidrÃ¡ulica,Usinagem,Schneider,Corretiva,03:54:00,10110.26,Sensor,6,LubrificaÃ§Ã£o,Em andamento
+196,2025-06-18,OS-1196,Dobradeira,Montagem ,Siemens,Preventiva,22:48:00,8908.73,Correia,3,Desgaste,Em andamento
+197,2025-01-23,OS-1197,Esteira,Usinagem,Fanuc,Preditiva,19:30:00,13290.8,Sensor,7,Desgaste,Aberta
+198,2025-06-29,OS-1198,Injetora,Montagem ,WEG,Corretiva,02:42:00,12193.66,Bomba,2,Erro operador,Aberta
+199,2025-01-09,OS-1199,Corte Laser,Montagem ,Bosch,Preditiva,07:00:00,7768.05,Sensor,9,Falha mecÃ¢nica,Aberta
+200,2025-02-13,OS-1200,Esteira,Usinagem,Fanuc,Preventiva,17:06:00,6278.98,Bomba,5,Erro operador,ConcluÃ­da
+201,2025-02-20,OS-1201,Esteira,Usinagem,Schneider,Corretiva,07:24:00,13984.27,Bomba,9,Erro operador,ConcluÃ­da
+202,2025-06-03,OS-1202,Corte Laser,Montagem ,Bosch,Preventiva,07:24:00,10504.89,Sensor,3,Falha elÃ©trica,ConcluÃ­da
+203,2025-06-19,OS-1203,Fresadora CNC,Usinagem,WEG,Preditiva,00:42:00,3898.09,VÃ¡lvula,5,Falha mecÃ¢nica,Aberta
+204,2025-03-23,OS-1204,Corte Laser,Usinagem,Siemens,Corretiva,15:18:00,5921.89,Sensor,1,Erro operador,Em andamento
+205,2025-03-08,OS-1205,Fresadora CNC,Montagem ,WEG,Preventiva,20:30:00,12882.07,Sensor,1,LubrificaÃ§Ã£o,Aberta
+206,2025-03-11,OS-1206,Compressor,Usinagem,Fanuc,Corretiva,18:18:00,5498.34,Motor,6,Desgaste,Em andamento
+207,2025-04-21,OS-1207,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Preventiva,22:36:00,343.27,Motor,1,Desgaste,Em andamento
+208,2025-01-30,OS-1208,Torno CNC,Montagem ,WEG,Preditiva,20:48:00,3322.56,Rolamento,3,Falha elÃ©trica,Aberta
+209,2025-06-07,OS-1209,Injetora,Usinagem,Schneider,Corretiva,14:36:00,7877.69,CLP,10,Erro operador,ConcluÃ­da
+210,2025-01-06,OS-1210,Centro de Usinagem,Usinagem,WEG,Corretiva,06:24:00,2749.49,VÃ¡lvula,2,Desgaste,Em andamento
+211,2025-01-07,OS-1211,Centro de Usinagem,Montagem ,Siemens,Preventiva,22:30:00,4516.08,VÃ¡lvula,3,LubrificaÃ§Ã£o,Aberta
+212,2025-01-18,OS-1212,Centro de Usinagem,Montagem ,Schneider,Preventiva,06:00:00,10151.96,Correia,9,Falha mecÃ¢nica,ConcluÃ­da
+213,2025-03-31,OS-1213,Fresadora CNC,Usinagem,Schneider,Corretiva,00:54:00,11125.47,CLP,1,Falha mecÃ¢nica,Aberta
+214,2025-06-05,OS-1214,Dobradeira,Montagem ,Siemens,Corretiva,05:18:00,1474.42,CLP,9,Falha mecÃ¢nica,ConcluÃ­da
+215,2025-01-18,OS-1215,Fresadora CNC,Usinagem,Fanuc,Preventiva,19:18:00,13010.65,Motor,8,Erro operador,Em andamento
+216,2025-04-16,OS-1216,Compressor,Montagem ,Bosch,Corretiva,03:30:00,14838.59,Sensor,6,Desgaste,ConcluÃ­da
+217,2025-02-09,OS-1217,Dobradeira,Montagem ,WEG,Preventiva,22:42:00,4294.69,CLP,1,Falha elÃ©trica,Aberta
+218,2025-06-02,OS-1218,Corte Laser,Usinagem,Fanuc,Preditiva,13:12:00,13849.11,Sensor,4,Falha elÃ©trica,Em andamento
+219,2025-02-09,OS-1219,Torno CNC,Montagem ,Fanuc,Preditiva,09:30:00,900.49,Sensor,5,Erro operador,Em andamento
+220,2025-01-02,OS-1220,Fresadora CNC,Usinagem,Schneider,Preventiva,03:36:00,12866.55,Filtro,4,Falha mecÃ¢nica,Em andamento
+221,2025-04-12,OS-1221,Compressor,Usinagem,WEG,Corretiva,15:24:00,5975.34,CLP,5,LubrificaÃ§Ã£o,Em andamento
+222,2025-04-13,OS-1222,Corte Laser,Montagem ,Siemens,Preventiva,14:06:00,8773.7,VÃ¡lvula,1,Erro operador,Em andamento
+223,2025-02-21,OS-1223,Fresadora CNC,Usinagem,WEG,Corretiva,07:18:00,13779.49,CLP,3,Falha mecÃ¢nica,ConcluÃ­da
+224,2025-05-17,OS-1224,Dobradeira,Usinagem,Siemens,Corretiva,21:18:00,14505.87,Filtro,9,Falha mecÃ¢nica,ConcluÃ­da
+225,2025-03-18,OS-1225,Corte Laser,Usinagem,Schneider,Preditiva,01:00:00,13763.21,Motor,3,Desgaste,Aberta
+226,2025-03-17,OS-1226,Compressor,Usinagem,Siemens,Corretiva,22:36:00,5752.07,Sensor,9,LubrificaÃ§Ã£o,Aberta
+227,2025-04-05,OS-1227,Esteira,Usinagem,Fanuc,Preventiva,18:24:00,12080.38,Rolamento,6,Falha elÃ©trica,Em andamento
+228,2025-04-03,OS-1228,Centro de Usinagem,Montagem ,Fanuc,Corretiva,22:36:00,3321.45,Sensor,8,Falha mecÃ¢nica,Em andamento
+229,2025-05-15,OS-1229,Fresadora CNC,Usinagem,WEG,Preditiva,10:36:00,493.84,Correia,1,Desgaste,Em andamento
+230,2025-04-03,OS-1230,Dobradeira,Usinagem,Siemens,Corretiva,14:36:00,672.7,Motor,10,Desgaste,ConcluÃ­da
+231,2025-04-24,OS-1231,Compressor,Montagem ,WEG,Preditiva,06:06:00,7099.98,Filtro,5,Falha mecÃ¢nica,ConcluÃ­da
+232,2025-06-24,OS-1232,Dobradeira,Usinagem,Fanuc,Preventiva,01:24:00,5759.3,Bomba,5,Falha elÃ©trica,Em andamento
+233,2025-03-13,OS-1233,Prensa HidrÃ¡ulica,Usinagem,Schneider,Corretiva,12:48:00,12567.85,Bomba,10,Erro operador,Aberta
+234,2025-01-20,OS-1234,Torno CNC,Montagem ,Siemens,Corretiva,15:30:00,175.53,VÃ¡lvula,8,Erro operador,Em andamento
+235,2025-04-06,OS-1235,Esteira,Montagem ,Schneider,Corretiva,03:12:00,10724.28,CLP,6,Desgaste,ConcluÃ­da
+236,2025-05-24,OS-1236,Centro de Usinagem,Usinagem,Schneider,Preventiva,23:24:00,10924.59,Correia,3,Falha elÃ©trica,Em andamento
+237,2025-01-28,OS-1237,Compressor,Usinagem,Schneider,Preventiva,08:48:00,2970.56,Rolamento,1,LubrificaÃ§Ã£o,ConcluÃ­da
+238,2025-04-04,OS-1238,Injetora,Montagem ,Siemens,Preventiva,13:48:00,13933.78,Sensor,10,Falha elÃ©trica,ConcluÃ­da
+239,2025-05-08,OS-1239,Prensa HidrÃ¡ulica,Usinagem,Siemens,Preditiva,09:06:00,1253.75,CLP,7,Erro operador,Em andamento
+240,2025-01-15,OS-1240,Soldadora Robotizada,Usinagem,Siemens,Preventiva,13:30:00,1872.32,Filtro,1,Erro operador,Em andamento
+241,2025-02-13,OS-1241,Dobradeira,Montagem ,Siemens,Corretiva,20:42:00,4578.19,Bomba,10,Falha elÃ©trica,Em andamento
+242,2025-03-08,OS-1242,Centro de Usinagem,Usinagem,Fanuc,Preditiva,07:30:00,6339.25,Motor,6,Falha mecÃ¢nica,Em andamento
+243,2025-04-06,OS-1243,Esteira,Usinagem,Fanuc,Preventiva,09:12:00,4171.39,Filtro,6,LubrificaÃ§Ã£o,Em andamento
+244,2025-04-06,OS-1244,Soldadora Robotizada,Usinagem,Schneider,Preditiva,01:30:00,6435.77,Correia,2,Falha elÃ©trica,Em andamento
+245,2025-02-06,OS-1245,Injetora,Usinagem,Fanuc,Preditiva,17:00:00,1995.86,Correia,7,Falha mecÃ¢nica,Aberta
+246,2025-06-24,OS-1246,Centro de Usinagem,Montagem ,WEG,Preditiva,13:00:00,3120.74,Bomba,4,Falha mecÃ¢nica,ConcluÃ­da
+247,2025-06-08,OS-1247,Fresadora CNC,Usinagem,Fanuc,Preventiva,00:54:00,10836.58,Motor,1,Falha mecÃ¢nica,ConcluÃ­da
+248,2025-05-03,OS-1248,Injetora,Montagem ,Bosch,Preventiva,05:36:00,9769.08,CLP,7,Desgaste,Aberta
+249,2025-01-21,OS-1249,Esteira,Usinagem,Siemens,Preditiva,03:12:00,7510.35,Motor,10,Falha mecÃ¢nica,Aberta
+250,2025-03-20,OS-1250,Torno CNC,Montagem ,WEG,Preventiva,23:00:00,8403.04,VÃ¡lvula,1,Erro operador,Em andamento
+251,2025-04-23,OS-1251,Soldadora Robotizada,Usinagem,WEG,Preventiva,12:36:00,5671.84,Rolamento,5,Erro operador,ConcluÃ­da
+252,2025-02-10,OS-1252,Prensa HidrÃ¡ulica,Usinagem,Siemens,Preditiva,05:42:00,7509.4,Rolamento,4,Falha mecÃ¢nica,ConcluÃ­da
+253,2025-02-09,OS-1253,Dobradeira,Montagem ,Fanuc,Preditiva,09:00:00,7314.39,CLP,9,LubrificaÃ§Ã£o,Aberta
+254,2025-03-11,OS-1254,Centro de Usinagem,Montagem ,Schneider,Preditiva,07:36:00,11265.77,Motor,7,Falha mecÃ¢nica,Em andamento
+255,2025-02-19,OS-1255,Compressor,Montagem ,Fanuc,Corretiva,02:24:00,14104.57,Motor,2,LubrificaÃ§Ã£o,Em andamento
+256,2025-03-04,OS-1256,Torno CNC,Montagem ,Bosch,Preditiva,13:42:00,1496.09,Correia,2,Erro operador,Em andamento
+257,2025-02-27,OS-1257,Injetora,Usinagem,WEG,Corretiva,05:48:00,12116.98,Correia,2,Desgaste,ConcluÃ­da
+258,2025-05-22,OS-1258,Centro de Usinagem,Usinagem,WEG,Preditiva,04:18:00,5476.79,Correia,1,Falha elÃ©trica,ConcluÃ­da
+259,2025-02-28,OS-1259,Torno CNC,Montagem ,Fanuc,Preditiva,02:48:00,14107.66,Bomba,10,Desgaste,Em andamento
+260,2025-01-25,OS-1260,Injetora,Montagem ,WEG,Corretiva,15:06:00,10812.95,Bomba,1,Falha elÃ©trica,Em andamento
+261,2025-04-13,OS-1261,Fresadora CNC,Montagem ,Fanuc,Preditiva,11:54:00,13050.24,VÃ¡lvula,3,Falha elÃ©trica,Em andamento
+262,2025-04-09,OS-1262,Esteira,Usinagem,Siemens,Corretiva,00:54:00,14345.46,CLP,10,Falha mecÃ¢nica,Em andamento
+263,2025-04-12,OS-1263,Torno CNC,Usinagem,Bosch,Preventiva,13:24:00,11511.34,Rolamento,10,LubrificaÃ§Ã£o,ConcluÃ­da
+264,2025-06-20,OS-1264,Injetora,Usinagem,WEG,Preventiva,22:06:00,7464.31,Correia,6,Desgaste,Em andamento
+265,2025-02-11,OS-1265,Dobradeira,Usinagem,Bosch,Preditiva,08:24:00,1826.82,VÃ¡lvula,6,LubrificaÃ§Ã£o,Em andamento
+266,2025-03-01,OS-1266,Fresadora CNC,Usinagem,WEG,Preventiva,22:06:00,7097.26,CLP,2,Desgaste,Em andamento
+267,2025-06-04,OS-1267,Esteira,Montagem ,Schneider,Preventiva,05:12:00,1980.48,Motor,9,Falha mecÃ¢nica,ConcluÃ­da
+268,2025-01-22,OS-1268,Corte Laser,Montagem ,Bosch,Corretiva,15:18:00,3011.83,Bomba,10,Falha mecÃ¢nica,Em andamento
+269,2025-03-13,OS-1269,Dobradeira,Usinagem,Schneider,Corretiva,15:54:00,14899.8,Sensor,7,Falha mecÃ¢nica,Em andamento
+270,2025-02-20,OS-1270,Esteira,Usinagem,Siemens,Preventiva,09:54:00,9413.92,Sensor,6,Falha elÃ©trica,Em andamento
+271,2025-05-26,OS-1271,Prensa HidrÃ¡ulica,Montagem ,WEG,Corretiva,01:00:00,6791.62,Motor,9,LubrificaÃ§Ã£o,Em andamento
+272,2025-01-05,OS-1272,Compressor,Usinagem,Siemens,Preditiva,12:42:00,4828.81,CLP,10,Erro operador,Aberta
+273,2025-05-22,OS-1273,Dobradeira,Usinagem,Schneider,Preventiva,07:00:00,13184.94,Rolamento,10,Falha elÃ©trica,ConcluÃ­da
+274,2025-06-13,OS-1274,Torno CNC,Montagem ,Bosch,Corretiva,23:54:00,4696.16,Correia,8,Erro operador,Aberta
+275,2025-05-21,OS-1275,Dobradeira,Usinagem,WEG,Preditiva,17:48:00,8199.26,VÃ¡lvula,10,LubrificaÃ§Ã£o,Em andamento
+276,2025-02-01,OS-1276,Dobradeira,Usinagem,Fanuc,Preventiva,13:00:00,12559.31,Filtro,2,Falha mecÃ¢nica,ConcluÃ­da
+277,2025-01-06,OS-1277,Torno CNC,Usinagem,Siemens,Preventiva,04:54:00,8447.67,Filtro,10,Desgaste,Em andamento
+278,2025-04-17,OS-1278,Soldadora Robotizada,Usinagem,Fanuc,Preventiva,08:42:00,14314.72,Sensor,7,LubrificaÃ§Ã£o,Em andamento
+279,2025-06-03,OS-1279,Torno CNC,Montagem ,Schneider,Corretiva,21:48:00,10046.36,Sensor,3,Falha elÃ©trica,ConcluÃ­da
+280,2025-06-02,OS-1280,Esteira,Montagem ,Bosch,Preventiva,23:30:00,2375.62,Correia,7,Falha mecÃ¢nica,Aberta
+281,2025-06-01,OS-1281,Esteira,Montagem ,Bosch,Preventiva,09:30:00,13683.27,Rolamento,8,Erro operador,ConcluÃ­da
+282,2025-04-28,OS-1282,Prensa HidrÃ¡ulica,Usinagem,Fanuc,Preditiva,16:42:00,506.7,Motor,1,Falha mecÃ¢nica,Aberta
+283,2025-06-22,OS-1283,Compressor,Montagem ,Schneider,Corretiva,06:36:00,6725.45,Filtro,1,Desgaste,ConcluÃ­da
+284,2025-05-10,OS-1284,Compressor,Montagem ,WEG,Corretiva,20:00:00,10485.58,Filtro,9,Erro operador,ConcluÃ­da
+285,2025-04-17,OS-1285,Torno CNC,Usinagem,WEG,Corretiva,22:30:00,4056.3,Motor,7,Erro operador,ConcluÃ­da
+286,2025-01-27,OS-1286,Esteira,Montagem ,Fanuc,Preditiva,20:06:00,1390.88,Motor,3,Erro operador,Aberta
+287,2025-01-17,OS-1287,Injetora,Montagem ,WEG,Preditiva,02:24:00,4290.23,Rolamento,4,Falha elÃ©trica,ConcluÃ­da
+288,2025-05-03,OS-1288,Soldadora Robotizada,Montagem ,Schneider,Corretiva,09:54:00,8728.47,CLP,8,Falha elÃ©trica,Aberta
+289,2025-03-20,OS-1289,Corte Laser,Usinagem,WEG,Preventiva,23:06:00,3355.4,Motor,6,Falha elÃ©trica,ConcluÃ­da
+290,2025-02-21,OS-1290,Injetora,Usinagem,WEG,Preventiva,23:00:00,14883.79,Rolamento,8,LubrificaÃ§Ã£o,ConcluÃ­da
+291,2025-04-24,OS-1291,Torno CNC,Montagem ,Bosch,Corretiva,09:18:00,6372.06,VÃ¡lvula,3,Falha mecÃ¢nica,Aberta
+292,2025-06-23,OS-1292,Soldadora Robotizada,Montagem ,Siemens,Preventiva,22:42:00,13028.55,CLP,1,Erro operador,Em andamento
+293,2025-01-27,OS-1293,Soldadora Robotizada,Usinagem,Siemens,Preventiva,09:18:00,1654.46,Rolamento,9,LubrificaÃ§Ã£o,Em andamento
+294,2025-04-18,OS-1294,Dobradeira,Usinagem,Siemens,Corretiva,10:06:00,2086.68,Bomba,1,Erro operador,ConcluÃ­da
+295,2025-04-04,OS-1295,Centro de Usinagem,Montagem ,Schneider,Preditiva,04:36:00,6358.86,Filtro,4,Desgaste,ConcluÃ­da
+296,2025-01-03,OS-1296,Fresadora CNC,Montagem ,WEG,Preventiva,04:30:00,5389.72,Correia,6,Falha elÃ©trica,ConcluÃ­da
+297,2025-01-13,OS-1297,Torno CNC,Usinagem,Bosch,Preventiva,16:12:00,7589.6,Filtro,10,LubrificaÃ§Ã£o,Em andamento
+298,2025-01-16,OS-1298,Torno CNC,Montagem ,Schneider,Corretiva,01:12:00,5692.44,CLP,8,Desgaste,ConcluÃ­da
+299,2025-02-10,OS-1299,Corte Laser,Montagem ,Bosch,Corretiva,08:30:00,1756.09,Bomba,6,LubrificaÃ§Ã£o,Aberta
+300,2025-05-21,OS-1300,Compressor,Usinagem,Fanuc,Preventiva,12:12:00,4779.24,Motor,5,Falha elÃ©trica,Aberta
