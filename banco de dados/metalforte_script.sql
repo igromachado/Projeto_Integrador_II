@@ -25,11 +25,15 @@ create table maquina(
     
     constraint fk_setor_maquina 
 		foreign key(fk_setor) 
-        references setor(id_setor),
+        references setor(id_setor)
+        on update cascade
+        on delete cascade,
 	
     constraint fk_fabricante_maquina
 		foreign key(fk_fabricante)
         references fabricante(id_fabricante)
+        on update cascade
+        on delete cascade
 );
 
 create table tipo_manutencao(
@@ -53,15 +57,21 @@ create table manutencao(
     
     constraint fk_maquina_manutencao
 		foreign key(fk_maquina)
-        references maquina(id_maquina),
+        references maquina(id_maquina)
+        on update cascade
+        on delete cascade,
 	
     constraint fk_causa_manutencao
 		foreign key(fk_causa)
-        references causa_falha(id_causa),
+        references causa_falha(id_causa)
+        on update cascade
+        on delete cascade,
 	
     constraint fk_tipo_manutencao
 		foreign key(fk_tipo)
         references tipo_manutencao(id_tipo)
+        on update cascade
+        on delete cascade
 );
 
 create table especialidade_tecnico(
@@ -78,6 +88,8 @@ create table tecnico(
     constraint fk_especialidade_tecnico
 		foreign key(fk_especialidade)
         references especialidade_tecnico(id_especialidade)
+        on update cascade
+        on delete cascade
 );
 
 create table ordem_servico(
@@ -93,6 +105,8 @@ create table ordem_servico(
     constraint fk_manutencao_ordem 
 		foreign key(fk_manutencao)
         references manutencao(id_manutencao)
+        on update cascade
+        on delete cascade
 );
 
 create table ordem_tecnico(
@@ -105,11 +119,15 @@ create table ordem_tecnico(
     
     constraint fk_tecnico_ordem
 		foreign key(fk_tecnico)
-        references tecnico(id_tecnico),
+        references tecnico(id_tecnico)
+        on update cascade
+        on delete cascade,
 	
     constraint fk_ordem_tecnico
 		foreign key(fk_ordem)
         references ordem_servico(id_ordem)
+        on update cascade
+        on delete cascade
 );
 
 create table ordem_peca(
@@ -123,11 +141,15 @@ create table ordem_peca(
     
     constraint fk_peca_ordem
 		foreign key(fk_peca)
-        references peca(id_peca),
+        references peca(id_peca)
+        on update cascade
+        on delete cascade,
 	
     constraint fk_ordem_peca
 		foreign key(fk_ordem)
         references ordem_servico(id_ordem)
+        on update cascade
+        on delete cascade
 );
 
     
