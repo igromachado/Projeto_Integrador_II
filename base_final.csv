@@ -1,0 +1,301 @@
+ID_Registro,Data_Manutencao,Numero_OS,Setor,Fabricante_Peca,Tipo_Manutencao,Horas_Parada,Custo_Manutencao,Peca_Utilizada,Quantidade_Pecas,Causa_Falha,Status_OS,ID_Tecnico,Nome_Tecnico,Especialidade_y,ID_Maquina,Máquina,Fabricante
+1,2025-04-26 00:00:00,OS-1001,Montagem ,Bosch,Preventiva,17:42,"701,11",Bomba,3,Falha elétrica,Aberta,TEC003,Ana Costa,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+2,2025-02-17 00:00:00,OS-1002,Montagem ,Siemens,Preditiva,17:12,"11805,37",Bomba,7,Falha elétrica,Concluída,TEC003,Ana Costa,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+3,2025-03-02 00:00:00,OS-1003,Montagem ,WEG,Preditiva,08:00,"9588,87",Filtro,8,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ001 ,Torno CNC,Romi
+4,2025-04-29 00:00:00,OS-1004,Usinagem,Schneider,Preditiva,03:24,"6849,24",Sensor,9,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+5,2025-06-02 00:00:00,OS-1005,Usinagem,Siemens,Preditiva,07:36,"12967,13",Sensor,4,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+6,2025-01-02 00:00:00,OS-1006,Usinagem,Bosch,Corretiva,06:00,"3489,14",Rolamento,1,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ001 ,Torno CNC,Romi
+7,2025-02-24 00:00:00,OS-1007,Montagem ,Schneider,Preventiva,14:00,"6187,44",Bomba,1,Lubrificação,Em andamento,TEC005,Lucas Pereira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+8,2025-05-29 00:00:00,OS-1008,Usinagem,Bosch,Corretiva,12:00,"2551,49",Correia,3,Erro operador,Concluída,TEC001,Carlos Silva,Mecânico,MAQ001 ,Torno CNC,Romi
+9,2025-06-04 00:00:00,OS-1009,Usinagem,Schneider,Corretiva,02:06,"4107,68",Bomba,3,Desgaste,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+10,2025-06-24 00:00:00,OS-1010,Usinagem,WEG,Corretiva,02:30,"8571,51",Filtro,2,Falha elétrica,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ001 ,Torno CNC,Romi
+11,2025-05-25 00:00:00,OS-1011,Usinagem,Siemens,Preditiva,04:06,"12110,19",Filtro,1,Erro operador,Em andamento,TEC002,João Santos,Mecânico,MAQ001 ,Torno CNC,Romi
+12,2025-08-02 00:00:00,OS-1012,Montagem ,Bosch,Preventiva,16:30,"8715,27",CLP,7,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+13,2025-11-03 00:00:00,OS-1013,Usinagem,Fanuc,Preventiva,08:00,"1423,19",Bomba,10,Desgaste,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+14,2025-04-02 00:00:00,OS-1014,Usinagem,Bosch,Corretiva,03:30,"1974,51",Filtro,3,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ001 ,Torno CNC,Romi
+15,2025-04-01 00:00:00,OS-1015,Usinagem,Schneider,Preventiva,16:54,"1809,7",Rolamento,10,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+16,2025-07-02 00:00:00,OS-1016,Montagem ,Siemens,Corretiva,06:48,"8621,91",Rolamento,9,Falha mecânica,Aberta,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+17,2025-01-03 00:00:00,OS-1017,Usinagem,Siemens,Preventiva,19:24,"4634,9",Motor,10,Falha mecânica,Aberta,TEC007,Rafael Lima,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+18,2025-05-09 00:00:00,OS-1018,Usinagem,Fanuc,Preventiva,10:24,"4807,29",Correia,10,Falha elétrica,Concluída,TEC003,Ana Costa,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+19,2025-12-01 00:00:00,OS-1019,Usinagem,Bosch,Corretiva,16:06,"1252,64",Válvula,9,Falha elétrica,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+20,2025-06-04 00:00:00,OS-1020,Usinagem,Fanuc,Preventiva,01:00,"7618,99",Bomba,9,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ001 ,Torno CNC,Romi
+21,2025-06-05 00:00:00,OS-1021,Montagem ,Siemens,Preventiva,04:18,"8166,03",Correia,1,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ001 ,Torno CNC,Romi
+22,2025-01-02 00:00:00,OS-1022,Montagem ,WEG,Preditiva,18:24,"14558,85",CLP,3,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ001 ,Torno CNC,Romi
+23,2025-05-03 00:00:00,OS-1023,Montagem ,Fanuc,Preventiva,02:30,"12373,78",Sensor,7,Desgaste,Em andamento,TEC005,Lucas Pereira,Automação,MAQ001 ,Torno CNC,Romi
+24,2025-05-12 00:00:00,OS-1024,Montagem ,Siemens,Corretiva,01:54,"7059,37",Motor,4,Falha mecânica,Aberta,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+25,2025-06-18 00:00:00,OS-1025,Usinagem,Schneider,Corretiva,13:06,"4251,51",CLP,8,Falha mecânica,Concluída,TEC007,Rafael Lima,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+26,2025-06-03 00:00:00,OS-1026,Usinagem,Schneider,Corretiva,16:48,"10425,5",Filtro,3,Desgaste,Aberta,TEC006,Marcos Rocha,Automação,MAQ001 ,Torno CNC,Romi
+27,2025-03-15 00:00:00,OS-1027,Usinagem,WEG,Preventiva,08:42,"13434,61",Bomba,10,Falha mecânica,Aberta,TEC001,Carlos Silva,Mecânico,MAQ001 ,Torno CNC,Romi
+28,2025-06-24 00:00:00,OS-1028,Usinagem,Fanuc,Corretiva,05:54,"5395,57",Bomba,5,Falha mecânica,Concluída,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+29,2025-02-18 00:00:00,OS-1029,Usinagem,Bosch,Corretiva,23:06,"4436,93",CLP,3,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ001 ,Torno CNC,Romi
+30,2025-06-13 00:00:00,OS-1030,Usinagem,Bosch,Preditiva,13:54,"6884,45",Bomba,7,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+31,2025-05-06 00:00:00,OS-1031,Usinagem,Bosch,Preventiva,13:48,"2938,37",Válvula,3,Desgaste,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ002 ,Fresadora CNC,Romi
+32,2025-06-16 00:00:00,OS-1032,Usinagem,Bosch,Preditiva,23:24,"3515,95",Rolamento,1,Erro operador,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+33,2025-03-15 00:00:00,OS-1033,Usinagem,Bosch,Preventiva,13:42,"3257,71",Motor,4,Lubrificação,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+34,2025-10-06 00:00:00,OS-1034,Montagem ,Siemens,Preventiva,04:30,"10930,88",Sensor,2,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+35,2025-10-04 00:00:00,OS-1035,Usinagem,Siemens,Preventiva,02:24,"1862,86",Sensor,5,Erro operador,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ002 ,Fresadora CNC,Romi
+36,2025-04-13 00:00:00,OS-1036,Montagem ,Fanuc,Corretiva,18:54,"7666,07",Sensor,8,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ005,Dobradeira,Newton
+37,2025-10-04 00:00:00,OS-1037,Usinagem,WEG,Preditiva,14:30,"9821,61",Válvula,6,Erro operador,Aberta,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+38,2025-06-26 00:00:00,OS-1038,Montagem ,Siemens,Preventiva,21:48,"4009,59",Motor,8,Lubrificação,Aberta,TEC006,Marcos Rocha,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+39,2025-06-29 00:00:00,OS-1039,Montagem ,WEG,Preventiva,07:06,"3608,4",Válvula,6,Desgaste,Concluída,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+40,2025-04-23 00:00:00,OS-1040,Montagem ,Schneider,Corretiva,14:42,"5611,45",CLP,10,Erro operador,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ005,Dobradeira,Newton
+41,2025-05-22 00:00:00,OS-1041,Montagem ,WEG,Preventiva,20:30,"14413,02",Correia,10,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ002 ,Fresadora CNC,Romi
+42,2025-07-04 00:00:00,OS-1042,Montagem ,Fanuc,Preventiva,12:36,"10335,53",CLP,7,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ002 ,Fresadora CNC,Romi
+43,2025-04-26 00:00:00,OS-1043,Usinagem,Bosch,Preventiva,04:00,"5241,2",Rolamento,5,Erro operador,Concluída,TEC005,Lucas Pereira,Automação,MAQ003,Centro de Usinagem,Haas
+44,2025-05-28 00:00:00,OS-1044,Usinagem,Fanuc,Preditiva,01:24,"6596,87",Válvula,1,Desgaste,Concluída,TEC007,Rafael Lima,Mecânico,MAQ003,Centro de Usinagem,Haas
+45,2025-08-06 00:00:00,OS-1045,Usinagem,Fanuc,Corretiva,08:18,"2340,63",Válvula,4,Erro operador,Em andamento,TEC002,João Santos,Mecânico,MAQ005,Dobradeira,Newton
+46,2025-01-06 00:00:00,OS-1046,Usinagem,Schneider,Preventiva,15:36,"3512,06",Motor,1,Erro operador,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ001 ,Torno CNC,Romi
+47,2025-05-03 00:00:00,OS-1047,Usinagem,Fanuc,Corretiva,05:54,"1477,34",Válvula,10,Desgaste,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ005,Dobradeira,Newton
+48,2025-01-05 00:00:00,OS-1048,Usinagem,Fanuc,Preditiva,03:06,"4400,13",CLP,9,Erro operador,Em andamento,TEC012,Camila Ferreira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+49,2025-04-04 00:00:00,OS-1049,Usinagem,Bosch,Preditiva,12:00,"5552,44",Sensor,6,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ007,Injetora,Haitian
+50,2025-04-19 00:00:00,OS-1050,Usinagem,Fanuc,Preventiva,11:42,"9990,53",Rolamento,1,Lubrificação,Concluída,TEC012,Camila Ferreira,Automação,MAQ008,Soldadora Robotizada,Kuka
+51,2025-05-03 00:00:00,OS-1051,Montagem ,Bosch,Corretiva,07:06,"4460,38",CLP,7,Erro operador,Aberta,TEC002,João Santos,Mecânico,MAQ005,Dobradeira,Newton
+52,2025-03-26 00:00:00,OS-1052,Montagem ,Fanuc,Preventiva,07:06,"9998,8",Filtro,9,Falha elétrica,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+53,2025-06-05 00:00:00,OS-1053,Usinagem,Schneider,Corretiva,07:06,"7357,88",Rolamento,4,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ003,Centro de Usinagem,Haas
+54,2025-03-01 00:00:00,OS-1054,Usinagem,Fanuc,Preventiva,10:42,"4833,4",Bomba,3,Erro operador,Em andamento,TEC003,Ana Costa,Eletricista,MAQ005,Dobradeira,Newton
+55,2025-03-02 00:00:00,OS-1055,Montagem ,Siemens,Preditiva,04:12,"4641,3",Rolamento,9,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ007,Injetora,Haitian
+56,2025-04-29 00:00:00,OS-1056,Usinagem,WEG,Preditiva,08:48,"12128,2",Rolamento,9,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ005,Dobradeira,Newton
+57,2025-04-06 00:00:00,OS-1057,Montagem ,Siemens,Preditiva,14:18,"7686,74",Válvula,4,Lubrificação,Aberta,TEC005,Lucas Pereira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+58,2025-04-27 00:00:00,OS-1058,Montagem ,WEG,Preventiva,04:06,"5627,44",Rolamento,8,Desgaste,Aberta,TEC007,Rafael Lima,Mecânico,MAQ008,Soldadora Robotizada,Kuka
+59,2025-02-25 00:00:00,OS-1059,Usinagem,Siemens,Corretiva,12:54,"6892,21",Filtro,10,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ006 ,Corte Laser,Trumpf
+60,2025-04-05 00:00:00,OS-1060,Usinagem,Fanuc,Corretiva,08:42,"10438,56",Filtro,5,Desgaste,Aberta,TEC012,Camila Ferreira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+61,2025-08-05 00:00:00,OS-1061,Usinagem,Bosch,Preditiva,16:24,"2161,33",Válvula,8,Lubrificação,Concluída,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+62,2025-04-18 00:00:00,OS-1062,Usinagem,WEG,Corretiva,13:30,"5538,52",CLP,1,Lubrificação,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ010,Compressor Industrial,Atlas Copco
+63,2025-06-25 00:00:00,OS-1063,Montagem ,Siemens,Preventiva,01:18,"13878,93",Correia,9,Desgaste,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+64,2025-01-05 00:00:00,OS-1064,Montagem ,Fanuc,Preditiva,02:06,"9197,75",CLP,8,Falha elétrica,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+65,2025-11-02 00:00:00,OS-1065,Montagem ,Bosch,Preditiva,07:48,"12667,05",Rolamento,10,Desgaste,Aberta,TEC012,Camila Ferreira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+66,2025-03-04 00:00:00,OS-1066,Usinagem,Bosch,Preditiva,09:12,"5960,37",Correia,7,Desgaste,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ007,Injetora,Haitian
+67,2025-02-24 00:00:00,OS-1067,Montagem ,Fanuc,Preventiva,08:54,"13552,96",Filtro,5,Erro operador,Aberta,TEC001,Carlos Silva,Mecânico,MAQ002 ,Fresadora CNC,Romi
+68,2025-01-06 00:00:00,OS-1068,Usinagem,Siemens,Preditiva,21:00,"14649,26",Sensor,2,Falha elétrica,Aberta,TEC003,Ana Costa,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+69,2025-04-09 00:00:00,OS-1069,Montagem ,Siemens,Corretiva,07:42,"8322,14",CLP,2,Lubrificação,Aberta,TEC005,Lucas Pereira,Automação,MAQ005,Dobradeira,Newton
+70,2025-06-14 00:00:00,OS-1070,Usinagem,Siemens,Preventiva,07:00,"363,73",Bomba,7,Lubrificação,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ002 ,Fresadora CNC,Romi
+71,2025-05-15 00:00:00,OS-1071,Usinagem,WEG,Preditiva,02:48,"3379,95",Motor,10,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ007,Injetora,Haitian
+72,2025-03-04 00:00:00,OS-1072,Montagem ,Siemens,Preventiva,13:48,"3344,42",CLP,9,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ002 ,Fresadora CNC,Romi
+73,2025-06-19 00:00:00,OS-1073,Usinagem,Schneider,Corretiva,08:06,"3216,2",Rolamento,2,Erro operador,Concluída,TEC012,Camila Ferreira,Automação,MAQ003,Centro de Usinagem,Haas
+74,2025-01-11 00:00:00,OS-1074,Montagem ,Siemens,Corretiva,04:06,"6573,37",Sensor,4,Erro operador,Aberta,TEC001,Carlos Silva,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+75,2025-11-05 00:00:00,OS-1075,Montagem ,Siemens,Preventiva,02:24,"14966,45",Sensor,7,Erro operador,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ002 ,Fresadora CNC,Romi
+76,2025-02-21 00:00:00,OS-1076,Usinagem,Siemens,Preditiva,02:18,"10690,74",Motor,7,Lubrificação,Aberta,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+77,2025-05-02 00:00:00,OS-1077,Montagem ,Siemens,Preventiva,13:30,"10098,78",Válvula,10,Lubrificação,Concluída,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+78,2025-02-25 00:00:00,OS-1078,Usinagem,Fanuc,Preventiva,22:54,"14046,77",Motor,10,Desgaste,Aberta,TEC006,Marcos Rocha,Automação,MAQ002 ,Fresadora CNC,Romi
+79,2025-03-16 00:00:00,OS-1079,Montagem ,Schneider,Preditiva,05:00,"7741,66",Filtro,2,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ003,Centro de Usinagem,Haas
+80,2025-03-18 00:00:00,OS-1080,Usinagem,Fanuc,Preventiva,18:54,"2710,67",Motor,10,Falha mecânica,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ005,Dobradeira,Newton
+81,2025-03-17 00:00:00,OS-1081,Usinagem,Siemens,Preventiva,08:30,"7113,66",Correia,9,Falha elétrica,Concluída,TEC011,Patricia Souza,Eletricista,MAQ007,Injetora,Haitian
+82,2025-06-24 00:00:00,OS-1082,Usinagem,Schneider,Corretiva,08:36,"4042,06",Filtro,5,Erro operador,Aberta,TEC003,Ana Costa,Eletricista,MAQ006 ,Corte Laser,Trumpf
+83,2025-03-03 00:00:00,OS-1083,Montagem ,Fanuc,Preventiva,12:54,"524,08",Motor,10,Erro operador,Aberta,TEC002,João Santos,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+84,2025-04-21 00:00:00,OS-1084,Usinagem,Fanuc,Preditiva,08:00,"2272,14",Filtro,10,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+85,2025-12-06 00:00:00,OS-1085,Montagem ,Bosch,Corretiva,17:12,"8225,53",Motor,8,Desgaste,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ005,Dobradeira,Newton
+86,2025-05-06 00:00:00,OS-1086,Usinagem,Siemens,Corretiva,09:18,"12182,36",Correia,4,Lubrificação,Concluída,TEC012,Camila Ferreira,Automação,MAQ007,Injetora,Haitian
+87,2025-03-16 00:00:00,OS-1087,Usinagem,Siemens,Preditiva,12:18,"234,81",CLP,4,Falha elétrica,Concluída,TEC003,Ana Costa,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+88,2025-04-24 00:00:00,OS-1088,Montagem ,Fanuc,Corretiva,19:12,"14914,99",Motor,5,Erro operador,Em andamento,TEC012,Camila Ferreira,Automação,MAQ005,Dobradeira,Newton
+89,2025-06-23 00:00:00,OS-1089,Usinagem,Siemens,Preventiva,22:00,"8169,81",Motor,10,Falha elétrica,Concluída,TEC011,Patricia Souza,Eletricista,MAQ005,Dobradeira,Newton
+90,2025-03-30 00:00:00,OS-1090,Usinagem,Fanuc,Preditiva,13:24,"14613,71",CLP,2,Lubrificação,Concluída,TEC005,Lucas Pereira,Automação,MAQ003,Centro de Usinagem,Haas
+91,2025-02-01 00:00:00,OS-1091,Usinagem,Schneider,Preditiva,22:18,"13822,9",Rolamento,5,Erro operador,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+92,2025-01-21 00:00:00,OS-1092,Usinagem,Schneider,Preditiva,06:54,"10070,9",Válvula,1,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+93,2025-02-01 00:00:00,OS-1093,Usinagem,WEG,Preditiva,16:36,"6858,46",Sensor,1,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+94,2025-04-26 00:00:00,OS-1094,Montagem ,Schneider,Corretiva,12:54,"7405,5",Correia,8,Falha elétrica,Aberta,TEC003,Ana Costa,Eletricista,MAQ007,Injetora,Haitian
+95,2025-03-01 00:00:00,OS-1095,Usinagem,WEG,Corretiva,00:36,"7496,55",Motor,3,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+96,2025-01-22 00:00:00,OS-1096,Usinagem,WEG,Corretiva,04:48,"4133,76",Rolamento,8,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ007,Injetora,Haitian
+97,2025-05-05 00:00:00,OS-1097,Usinagem,Bosch,Corretiva,05:06,"13831,35",Sensor,9,Falha elétrica,Aberta,TEC011,Patricia Souza,Eletricista,MAQ001 ,Torno CNC,Romi
+98,2025-06-02 00:00:00,OS-1098,Montagem ,Fanuc,Preditiva,07:54,"12367,88",Bomba,3,Falha mecânica,Concluída,TEC007,Rafael Lima,Mecânico,MAQ002 ,Fresadora CNC,Romi
+99,2025-04-07 00:00:00,OS-1099,Montagem ,WEG,Preditiva,01:36,"14594,16",Sensor,2,Falha elétrica,Aberta,TEC011,Patricia Souza,Eletricista,MAQ003,Centro de Usinagem,Haas
+100,2025-12-03 00:00:00,OS-1100,Usinagem,WEG,Corretiva,06:24,"10173,31",Motor,6,Desgaste,Aberta,TEC002,João Santos,Mecânico,MAQ001 ,Torno CNC,Romi
+101,2025-03-05 00:00:00,OS-1101,Usinagem,Siemens,Corretiva,16:30,"3246,49",Bomba,5,Erro operador,Aberta,TEC005,Lucas Pereira,Automação,MAQ002 ,Fresadora CNC,Romi
+102,2025-02-16 00:00:00,OS-1102,Usinagem,Schneider,Corretiva,06:30,"10103,94",Válvula,2,Desgaste,Concluída,TEC005,Lucas Pereira,Automação,MAQ003,Centro de Usinagem,Haas
+103,2025-04-28 00:00:00,OS-1103,Usinagem,Bosch,Preditiva,22:12,"9070,6",Motor,6,Falha elétrica,Aberta,TEC003,Ana Costa,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+104,2025-02-23 00:00:00,OS-1104,Montagem ,Bosch,Preventiva,15:36,"7406,03",Sensor,7,Falha mecânica,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ008,Soldadora Robotizada,Kuka
+105,2025-02-14 00:00:00,OS-1105,Montagem ,Siemens,Preditiva,17:24,"8561,79",Correia,9,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+106,2025-10-01 00:00:00,OS-1106,Usinagem,Fanuc,Preventiva,21:24,"8547,55",Sensor,2,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+107,2025-04-25 00:00:00,OS-1107,Usinagem,Fanuc,Preditiva,12:48,"10733,5",Rolamento,7,Lubrificação,Em andamento,TEC005,Lucas Pereira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+108,2025-03-13 00:00:00,OS-1108,Montagem ,Schneider,Preditiva,19:12,"11220,27",Correia,2,Falha mecânica,Concluída,TEC007,Rafael Lima,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+109,2025-05-31 00:00:00,OS-1109,Usinagem,Fanuc,Preventiva,13:24,"4176,01",Rolamento,10,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ007,Injetora,Haitian
+110,2025-02-19 00:00:00,OS-1110,Usinagem,Siemens,Corretiva,15:30,"10826,72",Bomba,9,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ003,Centro de Usinagem,Haas
+111,2025-03-05 00:00:00,OS-1111,Usinagem,Fanuc,Preventiva,01:42,"6318,65",Sensor,4,Desgaste,Em andamento,TEC012,Camila Ferreira,Automação,MAQ001 ,Torno CNC,Romi
+112,2025-01-08 00:00:00,OS-1112,Montagem ,Bosch,Corretiva,19:54,"2757,36",Válvula,7,Lubrificação,Concluída,TEC012,Camila Ferreira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+113,2025-01-15 00:00:00,OS-1113,Usinagem,Siemens,Preditiva,22:54,"1225,55",Rolamento,9,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ002 ,Fresadora CNC,Romi
+114,2025-09-06 00:00:00,OS-1114,Montagem ,Schneider,Corretiva,04:24,"5879,02",Correia,9,Falha elétrica,Em andamento,TEC004,Fernanda Alves,Eletricista,MAQ003,Centro de Usinagem,Haas
+115,2025-02-22 00:00:00,OS-1115,Usinagem,Fanuc,Preventiva,01:18,"7704,55",Correia,7,Erro operador,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+116,2025-05-13 00:00:00,OS-1116,Usinagem,Schneider,Preventiva,14:00,"13406,8",Rolamento,7,Erro operador,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ006 ,Corte Laser,Trumpf
+117,2025-06-01 00:00:00,OS-1117,Montagem ,Bosch,Preditiva,02:54,"3150,07",Rolamento,9,Desgaste,Aberta,TEC005,Lucas Pereira,Automação,MAQ006 ,Corte Laser,Trumpf
+118,2025-06-13 00:00:00,OS-1118,Usinagem,Bosch,Preditiva,13:12,"9985,99",Válvula,2,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ001 ,Torno CNC,Romi
+119,2025-05-06 00:00:00,OS-1119,Usinagem,WEG,Preventiva,00:42,"9925,52",Sensor,6,Desgaste,Concluída,TEC002,João Santos,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+120,2025-10-03 00:00:00,OS-1120,Usinagem,Siemens,Corretiva,18:36,"3191,53",Rolamento,7,Erro operador,Em andamento,TEC006,Marcos Rocha,Automação,MAQ006 ,Corte Laser,Trumpf
+121,2025-04-05 00:00:00,OS-1121,Montagem ,Fanuc,Preditiva,10:00,"10270,8",Válvula,2,Erro operador,Concluída,TEC011,Patricia Souza,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+122,2025-05-20 00:00:00,OS-1122,Montagem ,Fanuc,Corretiva,13:36,"7096,43",CLP,6,Desgaste,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ008,Soldadora Robotizada,Kuka
+123,2025-03-15 00:00:00,OS-1123,Usinagem,Bosch,Corretiva,13:30,"7656,92",Correia,3,Lubrificação,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ005,Dobradeira,Newton
+124,2025-02-15 00:00:00,OS-1124,Montagem ,Bosch,Preditiva,03:06,"14874,28",Rolamento,8,Lubrificação,Em andamento,TEC005,Lucas Pereira,Automação,MAQ008,Soldadora Robotizada,Kuka
+125,2025-05-13 00:00:00,OS-1125,Usinagem,Fanuc,Preventiva,15:36,"4389,06",Sensor,10,Erro operador,Aberta,TEC011,Patricia Souza,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+126,2025-01-02 00:00:00,OS-1126,Montagem ,Fanuc,Preventiva,02:24,"9011,87",Motor,7,Falha elétrica,Concluída,TEC004,Fernanda Alves,Eletricista,MAQ005,Dobradeira,Newton
+127,2025-08-03 00:00:00,OS-1127,Montagem ,Siemens,Preventiva,10:00,"4102,6",Sensor,8,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ007,Injetora,Haitian
+128,2025-04-22 00:00:00,OS-1128,Usinagem,Bosch,Preventiva,11:54,"11818,13",Filtro,8,Desgaste,Em andamento,TEC006,Marcos Rocha,Automação,MAQ007,Injetora,Haitian
+129,2025-03-15 00:00:00,OS-1129,Usinagem,Fanuc,Corretiva,06:12,"8508,79",CLP,9,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ003,Centro de Usinagem,Haas
+130,2025-03-31 00:00:00,OS-1130,Usinagem,WEG,Preventiva,19:12,"11340,58",Válvula,2,Desgaste,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ002 ,Fresadora CNC,Romi
+131,2025-03-25 00:00:00,OS-1131,Usinagem,Bosch,Corretiva,16:12,"11152,62",Bomba,9,Falha elétrica,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ007,Injetora,Haitian
+132,2025-04-24 00:00:00,OS-1132,Usinagem,Fanuc,Preditiva,13:06,"14087,06",Válvula,7,Erro operador,Aberta,TEC001,Carlos Silva,Mecânico,MAQ005,Dobradeira,Newton
+133,2025-03-01 00:00:00,OS-1133,Usinagem,Schneider,Preventiva,03:18,"11168,06",Válvula,3,Desgaste,Concluída,TEC001,Carlos Silva,Mecânico,MAQ005,Dobradeira,Newton
+134,2025-03-13 00:00:00,OS-1134,Montagem ,Fanuc,Preventiva,07:06,"14894,27",Rolamento,9,Desgaste,Concluída,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+135,2025-01-18 00:00:00,OS-1135,Montagem ,Schneider,Preventiva,02:12,"1105,66",Motor,1,Erro operador,Em andamento,TEC006,Marcos Rocha,Automação,MAQ005,Dobradeira,Newton
+136,2025-09-01 00:00:00,OS-1136,Montagem ,WEG,Preventiva,09:42,"7942,24",Válvula,4,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+137,2025-04-20 00:00:00,OS-1137,Usinagem,Siemens,Preditiva,11:36,"11857,93",Correia,1,Lubrificação,Concluída,TEC009,Juliana Ribeiro,Automação,MAQ006 ,Corte Laser,Trumpf
+138,2025-05-22 00:00:00,OS-1138,Montagem ,Siemens,Preventiva,01:24,"11962,77",Rolamento,4,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ002 ,Fresadora CNC,Romi
+139,2025-04-10 00:00:00,OS-1139,Montagem ,Schneider,Preventiva,20:48,"14880,38",Filtro,6,Desgaste,Aberta,TEC006,Marcos Rocha,Automação,MAQ002 ,Fresadora CNC,Romi
+140,2025-02-22 00:00:00,OS-1140,Usinagem,Bosch,Preditiva,05:48,"2157,41",Sensor,10,Erro operador,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ002 ,Fresadora CNC,Romi
+141,2025-03-09 00:00:00,OS-1141,Montagem ,Siemens,Preditiva,09:18,"1658,91",Bomba,8,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+142,2025-01-19 00:00:00,OS-1142,Usinagem,Schneider,Preditiva,20:06,"12392,43",Filtro,8,Erro operador,Aberta,TEC002,João Santos,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+143,2025-06-12 00:00:00,OS-1143,Usinagem,Fanuc,Preventiva,20:30,"2541,89",Filtro,8,Desgaste,Em andamento,TEC012,Camila Ferreira,Automação,MAQ002 ,Fresadora CNC,Romi
+144,2025-01-29 00:00:00,OS-1144,Usinagem,Siemens,Preditiva,03:42,"13891,43",Válvula,7,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ003,Centro de Usinagem,Haas
+145,2025-04-20 00:00:00,OS-1145,Montagem ,Siemens,Preventiva,16:36,"173,38",Filtro,6,Falha mecânica,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ002 ,Fresadora CNC,Romi
+146,2025-06-17 00:00:00,OS-1146,Usinagem,Bosch,Preventiva,20:48,"8044,73",Rolamento,4,Lubrificação,Em andamento,TEC012,Camila Ferreira,Automação,MAQ006 ,Corte Laser,Trumpf
+147,2025-03-19 00:00:00,OS-1147,Montagem ,WEG,Corretiva,07:06,"7239,08",Motor,3,Desgaste,Aberta,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+148,2025-06-29 00:00:00,OS-1148,Montagem ,Fanuc,Preditiva,10:36,"13172,02",Sensor,3,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ003,Centro de Usinagem,Haas
+149,2025-06-28 00:00:00,OS-1149,Montagem ,Fanuc,Corretiva,00:48,"14980,45",Motor,4,Erro operador,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ001 ,Torno CNC,Romi
+150,2025-02-13 00:00:00,OS-1150,Usinagem,Siemens,Preditiva,10:54,"2353,2",Motor,1,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ007,Injetora,Haitian
+151,2025-01-04 00:00:00,OS-1151,Montagem ,Fanuc,Corretiva,13:54,"1452,29",Motor,8,Desgaste,Aberta,TEC005,Lucas Pereira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+152,2025-04-22 00:00:00,OS-1152,Montagem ,WEG,Preditiva,04:06,"6458,13",Bomba,8,Desgaste,Concluída,TEC012,Camila Ferreira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+153,2025-06-03 00:00:00,OS-1153,Montagem ,Schneider,Corretiva,19:18,"9034,55",CLP,4,Erro operador,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ005,Dobradeira,Newton
+154,2025-03-04 00:00:00,OS-1154,Usinagem,WEG,Preventiva,03:30,"11993,44",Bomba,10,Desgaste,Concluída,TEC012,Camila Ferreira,Automação,MAQ006 ,Corte Laser,Trumpf
+155,2025-01-21 00:00:00,OS-1155,Usinagem,Fanuc,Preditiva,02:12,"11955,99",CLP,9,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ006 ,Corte Laser,Trumpf
+156,2025-03-25 00:00:00,OS-1156,Montagem ,WEG,Preditiva,15:48,"13669,29",Correia,5,Desgaste,Em andamento,TEC006,Marcos Rocha,Automação,MAQ001 ,Torno CNC,Romi
+157,2025-03-05 00:00:00,OS-1157,Montagem ,Schneider,Corretiva,11:00,"14676,74",Bomba,7,Lubrificação,Em andamento,TEC005,Lucas Pereira,Automação,MAQ006 ,Corte Laser,Trumpf
+158,2025-09-03 00:00:00,OS-1158,Usinagem,Siemens,Preventiva,10:54,"5064,22",CLP,5,Lubrificação,Aberta,TEC005,Lucas Pereira,Automação,MAQ007,Injetora,Haitian
+159,2025-04-05 00:00:00,OS-1159,Usinagem,WEG,Corretiva,17:12,"1238,04",Sensor,3,Falha mecânica,Aberta,TEC007,Rafael Lima,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+160,2025-03-29 00:00:00,OS-1160,Usinagem,Fanuc,Preditiva,02:06,"13459,02",Bomba,6,Falha elétrica,Aberta,TEC003,Ana Costa,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+161,2025-07-02 00:00:00,OS-1161,Usinagem,Schneider,Preventiva,11:30,"5012,82",Rolamento,3,Erro operador,Aberta,TEC011,Patricia Souza,Eletricista,MAQ003,Centro de Usinagem,Haas
+162,2025-02-14 00:00:00,OS-1162,Montagem ,Fanuc,Corretiva,14:06,"4197,29",Filtro,8,Falha elétrica,Concluída,TEC004,Fernanda Alves,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+163,2025-02-28 00:00:00,OS-1163,Montagem ,Bosch,Preventiva,04:12,"3639,91",Rolamento,1,Erro operador,Concluída,TEC012,Camila Ferreira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+164,2025-05-15 00:00:00,OS-1164,Usinagem,WEG,Preventiva,08:06,"2276,15",Válvula,4,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ007,Injetora,Haitian
+165,2025-05-13 00:00:00,OS-1165,Montagem ,Schneider,Corretiva,15:54,"5273,63",Correia,1,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+166,2025-02-22 00:00:00,OS-1166,Montagem ,Bosch,Corretiva,10:00,"4930,64",Rolamento,7,Desgaste,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ006 ,Corte Laser,Trumpf
+167,2025-06-22 00:00:00,OS-1167,Montagem ,Schneider,Corretiva,21:00,"3400,34",Rolamento,9,Desgaste,Em andamento,TEC002,João Santos,Mecânico,MAQ005,Dobradeira,Newton
+168,2025-05-03 00:00:00,OS-1168,Montagem ,Fanuc,Preventiva,13:30,"10823,56",Motor,7,Desgaste,Aberta,TEC012,Camila Ferreira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+169,2025-01-02 00:00:00,OS-1169,Montagem ,WEG,Corretiva,08:18,"2525,99",Válvula,2,Erro operador,Aberta,TEC012,Camila Ferreira,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+170,2025-04-14 00:00:00,OS-1170,Montagem ,WEG,Preventiva,23:06,"2052,89",Sensor,10,Falha mecânica,Aberta,TEC002,João Santos,Mecânico,MAQ007,Injetora,Haitian
+171,2025-07-03 00:00:00,OS-1171,Montagem ,WEG,Corretiva,07:54,"3537,36",Bomba,5,Erro operador,Em andamento,TEC002,João Santos,Mecânico,MAQ008,Soldadora Robotizada,Kuka
+172,2025-02-13 00:00:00,OS-1172,Montagem ,Schneider,Preventiva,01:00,"9534,5",Bomba,5,Falha mecânica,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ003,Centro de Usinagem,Haas
+173,2025-04-14 00:00:00,OS-1173,Usinagem,Bosch,Corretiva,13:30,"824,42",Sensor,3,Erro operador,Aberta,TEC005,Lucas Pereira,Automação,MAQ002 ,Fresadora CNC,Romi
+174,2025-04-26 00:00:00,OS-1174,Montagem ,Siemens,Preditiva,01:30,"1985,67",Motor,2,Erro operador,Aberta,TEC001,Carlos Silva,Mecânico,MAQ007,Injetora,Haitian
+175,2025-03-04 00:00:00,OS-1175,Montagem ,Schneider,Preditiva,02:48,"3787,58",CLP,3,Erro operador,Concluída,TEC001,Carlos Silva,Mecânico,MAQ007,Injetora,Haitian
+176,2025-09-02 00:00:00,OS-1176,Usinagem,Fanuc,Corretiva,21:30,"7599,04",Correia,7,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ003,Centro de Usinagem,Haas
+177,2025-04-23 00:00:00,OS-1177,Montagem ,Schneider,Preditiva,16:06,"7260,95",Filtro,7,Desgaste,Aberta,TEC001,Carlos Silva,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+178,2025-01-02 00:00:00,OS-1178,Montagem ,WEG,Preditiva,11:12,"8761,59",Filtro,10,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+179,2025-01-12 00:00:00,OS-1179,Montagem ,Siemens,Preditiva,12:24,"5789,62",Válvula,8,Erro operador,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+180,2025-05-15 00:00:00,OS-1180,Montagem ,Schneider,Preventiva,16:48,"12927,3",CLP,2,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+181,2025-04-15 00:00:00,OS-1181,Usinagem,Schneider,Preventiva,09:30,"4787,71",Correia,9,Desgaste,Concluída,TEC012,Camila Ferreira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+182,2025-02-19 00:00:00,OS-1182,Montagem ,WEG,Corretiva,14:48,"8916,78",Filtro,7,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ005,Dobradeira,Newton
+183,2025-05-29 00:00:00,OS-1183,Montagem ,WEG,Corretiva,18:24,"143,52",Motor,2,Desgaste,Concluída,TEC001,Carlos Silva,Mecânico,MAQ005,Dobradeira,Newton
+184,2025-01-31 00:00:00,OS-1184,Montagem ,Bosch,Preditiva,18:36,"7110,91",Bomba,8,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ001 ,Torno CNC,Romi
+185,2025-05-14 00:00:00,OS-1185,Usinagem,WEG,Corretiva,02:54,"4353,11",Válvula,9,Falha elétrica,Em andamento,TEC003,Ana Costa,Eletricista,MAQ003,Centro de Usinagem,Haas
+186,2025-01-21 00:00:00,OS-1186,Usinagem,Siemens,Preventiva,15:06,"452,43",Válvula,10,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ001 ,Torno CNC,Romi
+187,2025-06-30 00:00:00,OS-1187,Usinagem,Schneider,Corretiva,07:48,"6911,1",Válvula,9,Lubrificação,Concluída,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+188,2025-10-06 00:00:00,OS-1188,Montagem ,Schneider,Preditiva,19:12,1538,CLP,3,Lubrificação,Em andamento,TEC012,Camila Ferreira,Automação,MAQ008,Soldadora Robotizada,Kuka
+189,2025-06-03 00:00:00,OS-1189,Usinagem,WEG,Preventiva,17:48,"9886,12",Sensor,3,Erro operador,Concluída,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+190,2025-06-06 00:00:00,OS-1190,Montagem ,Fanuc,Preventiva,12:30,"7311,92",Válvula,5,Falha elétrica,Em andamento,TEC003,Ana Costa,Eletricista,MAQ006 ,Corte Laser,Trumpf
+191,2025-05-29 00:00:00,OS-1191,Montagem ,Schneider,Corretiva,16:36,"8451,71",Bomba,7,Erro operador,Concluída,TEC003,Ana Costa,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+192,2025-06-27 00:00:00,OS-1192,Montagem ,Siemens,Preventiva,21:06,"12903,36",Bomba,10,Lubrificação,Em andamento,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+193,2025-01-01 00:00:00,OS-1193,Usinagem,WEG,Preditiva,20:24,"6740,82",CLP,4,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ005,Dobradeira,Newton
+194,2025-01-01 00:00:00,OS-1194,Montagem ,Fanuc,Preditiva,23:12,"696,7",Sensor,5,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ005,Dobradeira,Newton
+195,2025-05-19 00:00:00,OS-1195,Usinagem,Schneider,Corretiva,03:54,"10110,26",Sensor,6,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+196,2025-06-18 00:00:00,OS-1196,Montagem ,Siemens,Preventiva,22:48,"8908,73",Correia,3,Desgaste,Em andamento,TEC002,João Santos,Mecânico,MAQ005,Dobradeira,Newton
+197,2025-01-23 00:00:00,OS-1197,Usinagem,Fanuc,Preditiva,19:30,"13290,8",Sensor,7,Desgaste,Aberta,TEC012,Camila Ferreira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+198,2025-06-29 00:00:00,OS-1198,Montagem ,WEG,Corretiva,02:42,"12193,66",Bomba,2,Erro operador,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ007,Injetora,Haitian
+199,2025-09-01 00:00:00,OS-1199,Montagem ,Bosch,Preditiva,07:00,"7768,05",Sensor,9,Falha mecânica,Aberta,TEC001,Carlos Silva,Mecânico,MAQ006 ,Corte Laser,Trumpf
+200,2025-02-13 00:00:00,OS-1200,Usinagem,Fanuc,Preventiva,17:06,"6278,98",Bomba,5,Erro operador,Concluída,TEC012,Camila Ferreira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+201,2025-02-20 00:00:00,OS-1201,Usinagem,Schneider,Corretiva,07:24,"13984,27",Bomba,9,Erro operador,Concluída,TEC011,Patricia Souza,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+202,2025-03-06 00:00:00,OS-1202,Montagem ,Bosch,Preventiva,07:24,"10504,89",Sensor,3,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ006 ,Corte Laser,Trumpf
+203,2025-06-19 00:00:00,OS-1203,Usinagem,WEG,Preditiva,00:42,"3898,09",Válvula,5,Falha mecânica,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ002 ,Fresadora CNC,Romi
+204,2025-03-23 00:00:00,OS-1204,Usinagem,Siemens,Corretiva,15:18,"5921,89",Sensor,1,Erro operador,Em andamento,TEC006,Marcos Rocha,Automação,MAQ006 ,Corte Laser,Trumpf
+205,2025-03-08 00:00:00,OS-1205,Montagem ,WEG,Preventiva,20:30,"12882,07",Sensor,1,Lubrificação,Aberta,TEC005,Lucas Pereira,Automação,MAQ002 ,Fresadora CNC,Romi
+206,2025-11-03 00:00:00,OS-1206,Usinagem,Fanuc,Corretiva,18:18,"5498,34",Motor,6,Desgaste,Em andamento,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+207,2025-04-21 00:00:00,OS-1207,Usinagem,Fanuc,Preventiva,22:36,"343,27",Motor,1,Desgaste,Em andamento,TEC006,Marcos Rocha,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+208,2025-01-30 00:00:00,OS-1208,Montagem ,WEG,Preditiva,20:48,"3322,56",Rolamento,3,Falha elétrica,Aberta,TEC008,Bruno Martins,Eletricista,MAQ001 ,Torno CNC,Romi
+209,2025-07-06 00:00:00,OS-1209,Usinagem,Schneider,Corretiva,14:36,"7877,69",CLP,10,Erro operador,Concluída,TEC008,Bruno Martins,Eletricista,MAQ007,Injetora,Haitian
+210,2025-01-06 00:00:00,OS-1210,Usinagem,WEG,Corretiva,06:24,"2749,49",Válvula,2,Desgaste,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ003,Centro de Usinagem,Haas
+211,2025-07-01 00:00:00,OS-1211,Montagem ,Siemens,Preventiva,22:30,"4516,08",Válvula,3,Lubrificação,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ003,Centro de Usinagem,Haas
+212,2025-01-18 00:00:00,OS-1212,Montagem ,Schneider,Preventiva,06:00,"10151,96",Correia,9,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ003,Centro de Usinagem,Haas
+213,2025-03-31 00:00:00,OS-1213,Usinagem,Schneider,Corretiva,00:54,"11125,47",CLP,1,Falha mecânica,Aberta,TEC002,João Santos,Mecânico,MAQ002 ,Fresadora CNC,Romi
+214,2025-05-06 00:00:00,OS-1214,Montagem ,Siemens,Corretiva,05:18,"1474,42",CLP,9,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ005,Dobradeira,Newton
+215,2025-01-18 00:00:00,OS-1215,Usinagem,Fanuc,Preventiva,19:18,"13010,65",Motor,8,Erro operador,Em andamento,TEC003,Ana Costa,Eletricista,MAQ002 ,Fresadora CNC,Romi
+216,2025-04-16 00:00:00,OS-1216,Montagem ,Bosch,Corretiva,03:30,"14838,59",Sensor,6,Desgaste,Concluída,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+217,2025-09-02 00:00:00,OS-1217,Montagem ,WEG,Preventiva,22:42,"4294,69",CLP,1,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ005,Dobradeira,Newton
+218,2025-02-06 00:00:00,OS-1218,Usinagem,Fanuc,Preditiva,13:12,"13849,11",Sensor,4,Falha elétrica,Em andamento,TEC004,Fernanda Alves,Eletricista,MAQ006 ,Corte Laser,Trumpf
+219,2025-09-02 00:00:00,OS-1219,Montagem ,Fanuc,Preditiva,09:30,"900,49",Sensor,5,Erro operador,Em andamento,TEC005,Lucas Pereira,Automação,MAQ001 ,Torno CNC,Romi
+220,2025-01-02 00:00:00,OS-1220,Usinagem,Schneider,Preventiva,03:36,"12866,55",Filtro,4,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ002 ,Fresadora CNC,Romi
+221,2025-12-04 00:00:00,OS-1221,Usinagem,WEG,Corretiva,15:24,"5975,34",CLP,5,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+222,2025-04-13 00:00:00,OS-1222,Montagem ,Siemens,Preventiva,14:06,"8773,7",Válvula,1,Erro operador,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ006 ,Corte Laser,Trumpf
+223,2025-02-21 00:00:00,OS-1223,Usinagem,WEG,Corretiva,07:18,"13779,49",CLP,3,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ002 ,Fresadora CNC,Romi
+224,2025-05-17 00:00:00,OS-1224,Usinagem,Siemens,Corretiva,21:18,"14505,87",Filtro,9,Falha mecânica,Concluída,TEC007,Rafael Lima,Mecânico,MAQ005,Dobradeira,Newton
+225,2025-03-18 00:00:00,OS-1225,Usinagem,Schneider,Preditiva,01:00,"13763,21",Motor,3,Desgaste,Aberta,TEC006,Marcos Rocha,Automação,MAQ006 ,Corte Laser,Trumpf
+226,2025-03-17 00:00:00,OS-1226,Usinagem,Siemens,Corretiva,22:36,"5752,07",Sensor,9,Lubrificação,Aberta,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+227,2025-05-04 00:00:00,OS-1227,Usinagem,Fanuc,Preventiva,18:24,"12080,38",Rolamento,6,Falha elétrica,Em andamento,TEC004,Fernanda Alves,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+228,2025-04-03 00:00:00,OS-1228,Montagem ,Fanuc,Corretiva,22:36,"3321,45",Sensor,8,Falha mecânica,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ003,Centro de Usinagem,Haas
+229,2025-05-15 00:00:00,OS-1229,Usinagem,WEG,Preditiva,10:36,"493,84",Correia,1,Desgaste,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ002 ,Fresadora CNC,Romi
+230,2025-04-03 00:00:00,OS-1230,Usinagem,Siemens,Corretiva,14:36,"672,7",Motor,10,Desgaste,Concluída,TEC012,Camila Ferreira,Automação,MAQ005,Dobradeira,Newton
+231,2025-04-24 00:00:00,OS-1231,Montagem ,WEG,Preditiva,06:06,"7099,98",Filtro,5,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+232,2025-06-24 00:00:00,OS-1232,Usinagem,Fanuc,Preventiva,01:24,"5759,3",Bomba,5,Falha elétrica,Em andamento,TEC003,Ana Costa,Eletricista,MAQ005,Dobradeira,Newton
+233,2025-03-13 00:00:00,OS-1233,Usinagem,Schneider,Corretiva,12:48,"12567,85",Bomba,10,Erro operador,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+234,2025-01-20 00:00:00,OS-1234,Montagem ,Siemens,Corretiva,15:30,"175,53",Válvula,8,Erro operador,Em andamento,TEC002,João Santos,Mecânico,MAQ001 ,Torno CNC,Romi
+235,2025-04-06 00:00:00,OS-1235,Montagem ,Schneider,Corretiva,03:12,"10724,28",CLP,6,Desgaste,Concluída,TEC005,Lucas Pereira,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+236,2025-05-24 00:00:00,OS-1236,Usinagem,Schneider,Preventiva,23:24,"10924,59",Correia,3,Falha elétrica,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ003,Centro de Usinagem,Haas
+237,2025-01-28 00:00:00,OS-1237,Usinagem,Schneider,Preventiva,08:48,"2970,56",Rolamento,1,Lubrificação,Concluída,TEC005,Lucas Pereira,Automação,MAQ010,Compressor Industrial,Atlas Copco
+238,2025-04-04 00:00:00,OS-1238,Montagem ,Siemens,Preventiva,13:48,"13933,78",Sensor,10,Falha elétrica,Concluída,TEC004,Fernanda Alves,Eletricista,MAQ007,Injetora,Haitian
+239,2025-05-08 00:00:00,OS-1239,Usinagem,Siemens,Preditiva,09:06,"1253,75",CLP,7,Erro operador,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ004,Prensa Hidráulica,Hidraupress
+240,2025-01-15 00:00:00,OS-1240,Usinagem,Siemens,Preventiva,13:30,"1872,32",Filtro,1,Erro operador,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ008,Soldadora Robotizada,Kuka
+241,2025-02-13 00:00:00,OS-1241,Montagem ,Siemens,Corretiva,20:42,"4578,19",Bomba,10,Falha elétrica,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ005,Dobradeira,Newton
+242,2025-08-03 00:00:00,OS-1242,Usinagem,Fanuc,Preditiva,07:30,"6339,25",Motor,6,Falha mecânica,Em andamento,TEC002,João Santos,Mecânico,MAQ003,Centro de Usinagem,Haas
+243,2025-04-06 00:00:00,OS-1243,Usinagem,Fanuc,Preventiva,09:12,"4171,39",Filtro,6,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+244,2025-06-04 00:00:00,OS-1244,Usinagem,Schneider,Preditiva,01:30,"6435,77",Correia,2,Falha elétrica,Em andamento,TEC011,Patricia Souza,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+245,2025-06-02 00:00:00,OS-1245,Usinagem,Fanuc,Preditiva,17:00,"1995,86",Correia,7,Falha mecânica,Aberta,TEC001,Carlos Silva,Mecânico,MAQ007,Injetora,Haitian
+246,2025-06-24 00:00:00,OS-1246,Montagem ,WEG,Preditiva,13:00,"3120,74",Bomba,4,Falha mecânica,Concluída,TEC001,Carlos Silva,Mecânico,MAQ003,Centro de Usinagem,Haas
+247,2025-08-06 00:00:00,OS-1247,Usinagem,Fanuc,Preventiva,00:54,"10836,58",Motor,1,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ002 ,Fresadora CNC,Romi
+248,2025-03-05 00:00:00,OS-1248,Montagem ,Bosch,Preventiva,05:36,"9769,08",CLP,7,Desgaste,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ007,Injetora,Haitian
+249,2025-01-21 00:00:00,OS-1249,Usinagem,Siemens,Preditiva,03:12,"7510,35",Motor,10,Falha mecânica,Aberta,TEC001,Carlos Silva,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+250,2025-03-20 00:00:00,OS-1250,Montagem ,WEG,Preventiva,23:00,"8403,04",Válvula,1,Erro operador,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ001 ,Torno CNC,Romi
+251,2025-04-23 00:00:00,OS-1251,Usinagem,WEG,Preventiva,12:36,"5671,84",Rolamento,5,Erro operador,Concluída,TEC003,Ana Costa,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+252,2025-02-10 00:00:00,OS-1252,Usinagem,Siemens,Preditiva,05:42,"7509,4",Rolamento,4,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+253,2025-09-02 00:00:00,OS-1253,Montagem ,Fanuc,Preditiva,09:00,"7314,39",CLP,9,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ005,Dobradeira,Newton
+254,2025-11-03 00:00:00,OS-1254,Montagem ,Schneider,Preditiva,07:36,"11265,77",Motor,7,Falha mecânica,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ003,Centro de Usinagem,Haas
+255,2025-02-19 00:00:00,OS-1255,Montagem ,Fanuc,Corretiva,02:24,"14104,57",Motor,2,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ010,Compressor Industrial,Atlas Copco
+256,2025-04-03 00:00:00,OS-1256,Montagem ,Bosch,Preditiva,13:42,"1496,09",Correia,2,Erro operador,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ001 ,Torno CNC,Romi
+257,2025-02-27 00:00:00,OS-1257,Usinagem,WEG,Corretiva,05:48,"12116,98",Correia,2,Desgaste,Concluída,TEC007,Rafael Lima,Mecânico,MAQ007,Injetora,Haitian
+258,2025-05-22 00:00:00,OS-1258,Usinagem,WEG,Preditiva,04:18,"5476,79",Correia,1,Falha elétrica,Concluída,TEC003,Ana Costa,Eletricista,MAQ003,Centro de Usinagem,Haas
+259,2025-02-28 00:00:00,OS-1259,Montagem ,Fanuc,Preditiva,02:48,"14107,66",Bomba,10,Desgaste,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ001 ,Torno CNC,Romi
+260,2025-01-25 00:00:00,OS-1260,Montagem ,WEG,Corretiva,15:06,"10812,95",Bomba,1,Falha elétrica,Em andamento,TEC003,Ana Costa,Eletricista,MAQ007,Injetora,Haitian
+261,2025-04-13 00:00:00,OS-1261,Montagem ,Fanuc,Preditiva,11:54,"13050,24",Válvula,3,Falha elétrica,Em andamento,TEC008,Bruno Martins,Eletricista,MAQ002 ,Fresadora CNC,Romi
+262,2025-09-04 00:00:00,OS-1262,Usinagem,Siemens,Corretiva,00:54,"14345,46",CLP,10,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+263,2025-04-12 00:00:00,OS-1263,Usinagem,Bosch,Preventiva,13:24,"11511,34",Rolamento,10,Lubrificação,Concluída,TEC012,Camila Ferreira,Automação,MAQ001 ,Torno CNC,Romi
+264,2025-06-20 00:00:00,OS-1264,Usinagem,WEG,Preventiva,22:06,"7464,31",Correia,6,Desgaste,Em andamento,TEC010,Gustavo Fernandes,Mecânico,MAQ007,Injetora,Haitian
+265,2025-11-02 00:00:00,OS-1265,Usinagem,Bosch,Preditiva,08:24,"1826,82",Válvula,6,Lubrificação,Em andamento,TEC012,Camila Ferreira,Automação,MAQ005,Dobradeira,Newton
+266,2025-01-03 00:00:00,OS-1266,Usinagem,WEG,Preventiva,22:06,"7097,26",CLP,2,Desgaste,Em andamento,TEC006,Marcos Rocha,Automação,MAQ002 ,Fresadora CNC,Romi
+267,2025-04-06 00:00:00,OS-1267,Montagem ,Schneider,Preventiva,05:12,"1980,48",Motor,9,Falha mecânica,Concluída,TEC002,João Santos,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+268,2025-01-22 00:00:00,OS-1268,Montagem ,Bosch,Corretiva,15:18,"3011,83",Bomba,10,Falha mecânica,Em andamento,TEC001,Carlos Silva,Mecânico,MAQ006 ,Corte Laser,Trumpf
+269,2025-03-13 00:00:00,OS-1269,Usinagem,Schneider,Corretiva,15:54,"14899,8",Sensor,7,Falha mecânica,Em andamento,TEC007,Rafael Lima,Mecânico,MAQ005,Dobradeira,Newton
+270,2025-02-20 00:00:00,OS-1270,Usinagem,Siemens,Preventiva,09:54,"9413,92",Sensor,6,Falha elétrica,Em andamento,TEC003,Ana Costa,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+271,2025-05-26 00:00:00,OS-1271,Montagem ,WEG,Corretiva,01:00,"6791,62",Motor,9,Lubrificação,Em andamento,TEC009,Juliana Ribeiro,Automação,MAQ004,Prensa Hidráulica,Hidraupress
+272,2025-05-01 00:00:00,OS-1272,Usinagem,Siemens,Preditiva,12:42,"4828,81",CLP,10,Erro operador,Aberta,TEC006,Marcos Rocha,Automação,MAQ010,Compressor Industrial,Atlas Copco
+273,2025-05-22 00:00:00,OS-1273,Usinagem,Schneider,Preventiva,07:00,"13184,94",Rolamento,10,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ005,Dobradeira,Newton
+274,2025-06-13 00:00:00,OS-1274,Montagem ,Bosch,Corretiva,23:54,"4696,16",Correia,8,Erro operador,Aberta,TEC009,Juliana Ribeiro,Automação,MAQ001 ,Torno CNC,Romi
+275,2025-05-21 00:00:00,OS-1275,Usinagem,WEG,Preditiva,17:48,"8199,26",Válvula,10,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ005,Dobradeira,Newton
+276,2025-01-02 00:00:00,OS-1276,Usinagem,Fanuc,Preventiva,13:00,"12559,31",Filtro,2,Falha mecânica,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ005,Dobradeira,Newton
+277,2025-06-01 00:00:00,OS-1277,Usinagem,Siemens,Preventiva,04:54,"8447,67",Filtro,10,Desgaste,Em andamento,TEC006,Marcos Rocha,Automação,MAQ001 ,Torno CNC,Romi
+278,2025-04-17 00:00:00,OS-1278,Usinagem,Fanuc,Preventiva,08:42,"14314,72",Sensor,7,Lubrificação,Em andamento,TEC012,Camila Ferreira,Automação,MAQ008,Soldadora Robotizada,Kuka
+279,2025-06-03 00:00:00,OS-1279,Montagem ,Schneider,Corretiva,21:48,"10046,36",Sensor,3,Falha elétrica,Concluída,TEC003,Ana Costa,Eletricista,MAQ001 ,Torno CNC,Romi
+280,2025-06-02 00:00:00,OS-1280,Montagem ,Bosch,Preventiva,23:30,"2375,62",Correia,7,Falha mecânica,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+281,2025-06-01 00:00:00,OS-1281,Montagem ,Bosch,Preventiva,09:30,"13683,27",Rolamento,8,Erro operador,Concluída,TEC011,Patricia Souza,Eletricista,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+282,2025-04-28 00:00:00,OS-1282,Usinagem,Fanuc,Preditiva,16:42,"506,7",Motor,1,Falha mecânica,Aberta,TEC001,Carlos Silva,Mecânico,MAQ004,Prensa Hidráulica,Hidraupress
+283,2025-06-22 00:00:00,OS-1283,Montagem ,Schneider,Corretiva,06:36,"6725,45",Filtro,1,Desgaste,Concluída,TEC010,Gustavo Fernandes,Mecânico,MAQ010,Compressor Industrial,Atlas Copco
+284,2025-10-05 00:00:00,OS-1284,Montagem ,WEG,Corretiva,20:00,"10485,58",Filtro,9,Erro operador,Concluída,TEC008,Bruno Martins,Eletricista,MAQ010,Compressor Industrial,Atlas Copco
+285,2025-04-17 00:00:00,OS-1285,Usinagem,WEG,Corretiva,22:30,"4056,3",Motor,7,Erro operador,Concluída,TEC012,Camila Ferreira,Automação,MAQ001 ,Torno CNC,Romi
+286,2025-01-27 00:00:00,OS-1286,Montagem ,Fanuc,Preditiva,20:06,"1390,88",Motor,3,Erro operador,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ009 ,Esteira Transportadora,SEW-Eurodrive
+287,2025-01-17 00:00:00,OS-1287,Montagem ,WEG,Preditiva,02:24,"4290,23",Rolamento,4,Falha elétrica,Concluída,TEC008,Bruno Martins,Eletricista,MAQ007,Injetora,Haitian
+288,2025-03-05 00:00:00,OS-1288,Montagem ,Schneider,Corretiva,09:54,"8728,47",CLP,8,Falha elétrica,Aberta,TEC011,Patricia Souza,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+289,2025-03-20 00:00:00,OS-1289,Usinagem,WEG,Preventiva,23:06,"3355,4",Motor,6,Falha elétrica,Concluída,TEC004,Fernanda Alves,Eletricista,MAQ006 ,Corte Laser,Trumpf
+290,2025-02-21 00:00:00,OS-1290,Usinagem,WEG,Preventiva,23:00,"14883,79",Rolamento,8,Lubrificação,Concluída,TEC006,Marcos Rocha,Automação,MAQ007,Injetora,Haitian
+291,2025-04-24 00:00:00,OS-1291,Montagem ,Bosch,Corretiva,09:18,"6372,06",Válvula,3,Falha mecânica,Aberta,TEC010,Gustavo Fernandes,Mecânico,MAQ001 ,Torno CNC,Romi
+292,2025-06-23 00:00:00,OS-1292,Montagem ,Siemens,Preventiva,22:42,"13028,55",CLP,1,Erro operador,Em andamento,TEC003,Ana Costa,Eletricista,MAQ008,Soldadora Robotizada,Kuka
+293,2025-01-27 00:00:00,OS-1293,Usinagem,Siemens,Preventiva,09:18,"1654,46",Rolamento,9,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ008,Soldadora Robotizada,Kuka
+294,2025-04-18 00:00:00,OS-1294,Usinagem,Siemens,Corretiva,10:06,"2086,68",Bomba,1,Erro operador,Concluída,TEC003,Ana Costa,Eletricista,MAQ005,Dobradeira,Newton
+295,2025-04-04 00:00:00,OS-1295,Montagem ,Schneider,Preditiva,04:36,"6358,86",Filtro,4,Desgaste,Concluída,TEC007,Rafael Lima,Mecânico,MAQ003,Centro de Usinagem,Haas
+296,2025-01-03 00:00:00,OS-1296,Montagem ,WEG,Preventiva,04:30,"5389,72",Correia,6,Falha elétrica,Concluída,TEC011,Patricia Souza,Eletricista,MAQ002 ,Fresadora CNC,Romi
+297,2025-01-13 00:00:00,OS-1297,Usinagem,Bosch,Preventiva,16:12,"7589,6",Filtro,10,Lubrificação,Em andamento,TEC006,Marcos Rocha,Automação,MAQ001 ,Torno CNC,Romi
+298,2025-01-16 00:00:00,OS-1298,Montagem ,Schneider,Corretiva,01:12,"5692,44",CLP,8,Desgaste,Concluída,TEC001,Carlos Silva,Mecânico,MAQ001 ,Torno CNC,Romi
+299,2025-02-10 00:00:00,OS-1299,Montagem ,Bosch,Corretiva,08:30,"1756,09",Bomba,6,Lubrificação,Aberta,TEC012,Camila Ferreira,Automação,MAQ006 ,Corte Laser,Trumpf
+300,2025-05-21 00:00:00,OS-1300,Usinagem,Fanuc,Preventiva,12:12,"4779,24",Motor,5,Falha elétrica,Aberta,TEC004,Fernanda Alves,Eletricista,MAQ010,Compressor Industrial,Atlas Copco

@@ -1,0 +1,21 @@
+﻿id_maquina,modelo,fk_setor,fk_fabricante
+1,Torno CNC,1,1
+2,Torno CNC,2,1
+3,Fresadora CNC,1,1
+4,Fresadora CNC,2,1
+5,Centro de Usinagem,1,2
+6,Centro de Usinagem,2,2
+7,Prensa Hidráulica,1,3
+8,Prensa Hidráulica,2,3
+9,Dobradeira,1,4
+10,Dobradeira,2,4
+11,Corte Laser,1,5
+12,Corte Laser,2,5
+13,Injetora,1,6
+14,Injetora,2,6
+15,Soldadora Robotizada,1,7
+16,Soldadora Robotizada,2,7
+17,Esteira Transportadora,1,8
+18,Esteira Transportadora,2,8
+19,Compressor Industrial,1,9
+20,Compressor Industrial,2,9

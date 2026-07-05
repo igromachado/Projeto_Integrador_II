@@ -1,0 +1,13 @@
+﻿id_tecnico,nome_tecnico,sobrenome_tecnico,fk_especialidade
+1,Carlos,Silva,2
+2,João,Santos,2
+3,Ana,Costa,1
+4,Fernanda,Alves,1
+5,Lucas,Pereira,3
+6,Marcos,Rocha,3
+7,Rafael,Lima,2
+8,Bruno,Martins,1
+9,Juliana,Ribeiro,3
+10,Gustavo,Fernandes,2
+11,Patricia,Souza,1
+12,Camila,Ferreira,3
