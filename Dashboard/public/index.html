@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MetalForte | Dashboard de Manutenção</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="top-nav">
+      <div class="logo-box">
+        <span>MF</span>
+        <div>
+          <strong>MetalForte</strong>
+          <small>Gestão de Manutenção</small>
+        </div>
+      </div>
+
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Projeto Integrador</p>
+      <h1>Dashboard de Gestão de Manutenção</h1>
+      <div class="api-pill">
+        <span class="pulse"></span>
+        <span id="apiStatus">Conectando com a API...</span>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="kpi-grid" aria-label="Cartões de medidas principais">
+      <article class="kpi-card accent-blue">
+        <span>Custo Total com Manutenção</span>
+        <strong id="kpiCustoTotal">--</strong>
+        <small>Somatório de custo_manutencao</small>
+      </article>
+
+      <article class="kpi-card accent-orange">
+        <span>Tempo Total de Máquinas Paradas</span>
+        <strong id="kpiTempoParado">--</strong>
+        <small id="kpiTempoParadoHoras">--</small>
+      </article>
+
+      <article class="kpi-card accent-green">
+        <span>Total de Ordens de Serviço</span>
+        <strong id="kpiTotalOs">--</strong>
+        <small>Contagem distinta de OS</small>
+      </article>
+
+      <article class="kpi-card accent-red">
+        <span>OS Abertas / Em Andamento</span>
+        <strong id="kpiOsAbertas">--</strong>
+        <small>Status diferente de Concluída</small>
+      </article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel wide">
+        <div class="panel-header">
+          <div>
+            <h2>Quais máquinas mais falham?</h2>
+            <p>Contagem de ocorrências por máquina</p>
+          </div>
+        </div>
+        <div class="chart-wrap chart-lg">
+          <canvas id="chartMaquinasFalham"></canvas>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Quais setores geram maior custo?</h2>
+            <p>Soma acumulada do custo por setor</p>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartSetoresCusto"></canvas>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Quanto tempo cada máquina fica parada?</h2>
+            <p>Soma de horas paradas por equipamento</p>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartTempoMaquina"></canvas>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Qual técnico executa mais serviços?</h2>
+            <p>Quantidade de OS vinculadas ao técnico</p>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartTecnicosServicos"></canvas>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Principais causas de falha</h2>
+            <p>Contagem de OS por causa raiz</p>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartCausasFalha"></canvas>
+        </div>
+      </article>
+
+      <article class="panel wide">
+        <div class="panel-header">
+          <div>
+            <h2>Impacto das Preventivas, Preditivas e Corretivas</h2>
+            <p>Comparativo mensal por tipo de manutenção</p>
+          </div>
+          <button id="btnAlternarPlanejadas" class="btn-secondary" type="button">
+            Ver planejadas x corretivas
+          </button>
+        </div>
+        <div class="chart-wrap chart-lg">
+          <canvas id="chartImpactoTipos"></canvas>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
